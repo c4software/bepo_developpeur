@@ -23,6 +23,6 @@ Utilisation :
 - Déplacer le fichier bepoDev dans ~/.xkb/symbols/
 - Appliquer la modification :
 
-´´´
+```
 	setxkbmap -I ~/.xkb bepoDev -print | xkbcomp -I~/.xkb - $DISPLAY
-´´´
+```
