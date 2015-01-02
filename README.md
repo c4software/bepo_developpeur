@@ -3,7 +3,7 @@ Disposition de clavier BépoDev
 
 Fichier xkb de la disposition Bépo modifié pour « améliorer » mon usage du Bépo dans le cadre de mon activité.
 
-![Disposition BépoDev](bepo-bepoVBR-simplifiee.png)
+![Disposition BépoDev](bepoDev-simplifiee.png)
 
 Utilisation :
 -------------
