@@ -45,9 +45,9 @@ xkb_symbols "dvorak" {
 
 	key <LSGT> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ dollar, numbersign, slash ] }; // $ # /
 	key <AB01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ agrave, Agrave, backslash ] }; // à À \
-	key <AB02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ y, Y, dead_abovering, dead_belowdot], actions=[NoAction(), NoAction(), Redirect(Key=<DELE>,  clearmods=all, modifiers=Shift), NoAction()] }; // y Y « ‘
-	key <AB03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ x, X, UFDD2 ], actions=[NoAction(), NoAction(), Redirect(Key=<INS>,  clearmods=all, modifiers=Control), NoAction()]}; // x X » ’
-	key <AB04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ period, colon, dagger, doubledagger], actions=[NoAction(), NoAction(), Redirect(Key=<INS>,  clearmods=all, modifiers=Shift), NoAction()] }; // . : … ·
+	key <AB02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ y, Y, dead_abovering, dead_belowdot], actions=[NoAction(), NoAction(), Redirect(Key=<DELE>,  clearmods=all, modifiers=Shift), Redirect(Key=<AB03>,  clearmods=all, modifiers=Control)] }; // y Y « ‘
+	key <AB03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ x, X, UFDD2 ], actions=[NoAction(), NoAction(), Redirect(Key=<INS>,  clearmods=all, modifiers=Control), Redirect(Key=<AC06>,  clearmods=all, modifiers=Control)]}; // x X » ’
+	key <AB04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ period, colon, dagger, doubledagger], actions=[NoAction(), NoAction(), Redirect(Key=<INS>,  clearmods=all, modifiers=Shift), Redirect(Key=<AD07>,  clearmods=all, modifiers=Control)] }; // . : … ·
 	key <AB05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ k, K, asciitilde, U2328 ] }; // k K ~ ⌨
 	key <AB06> { type[group1] = "FOUR_LEVEL", [ apostrophe, question, questiondown, dead_hook ] }; // ' ? ¿ ̉
 	key <AB07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ q, Q, guillemotleft, leftsinglequotemark ] }; // q Q ˚ ̣
