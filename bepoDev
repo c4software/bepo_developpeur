@@ -36,10 +36,10 @@ xkb_symbols "dvorak" {
 	key <AC04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ e, E, EuroSign, UFDD1 ] }; // e E € ¤
 	key <AC05> { type[group1] = "FOUR_LEVEL", [ comma, semicolon, rightsinglequotemark, dead_horn ] }; // , ; ’ ̛
 	key <AC06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ c, C, copyright, U017F ] }; // c C © ſ
-	key <AC07> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ t, T, j, J ] }; // t T j J
-	key <AC08> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ s, S, k, K ] }; // s S k K
-	key <AC09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ r, R, l, L ] }; // r R l L
-	key <AC10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ n, N, m, M ] }; // n N m M
+	key <AC07> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ t, T, j, J ], actions=[NoAction(), NoAction(), Redirect(Key=<AD10>,  clearmods=all), Redirect(Key=<AD10>, clearmods=all, modifiers=Shift)] }; // t T j J
+	key <AC08> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ s, S, k, K ], actions=[NoAction(), NoAction(), Redirect(Key=<AB05>,  clearmods=all), Redirect(Key=<AB05>, clearmods=all, modifiers=Shift)] }; // s S k K
+	key <AC09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ r, R, l, L ], actions=[NoAction(), NoAction(), Redirect(Key=<AD09>,  clearmods=all), Redirect(Key=<AD09>, clearmods=all, modifiers=Shift)] }; // r R l L
+	key <AC10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ n, N, m, M ], actions=[NoAction(), NoAction(), Redirect(Key=<AC11>,  clearmods=all), Redirect(Key=<AC11>, clearmods=all, modifiers=Shift)] }; // n N m M
 	key <AC11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ m, M, dead_macron, masculine ] }; // m M ¯ º
 	key <BKSL> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ccedilla, Ccedilla, dead_cedilla, UFDD3 ] }; // ç Ç ¸ ,
 
