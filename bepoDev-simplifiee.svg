@@ -11,7 +11,7 @@
    height="210mm"
    id="svg3276"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="bepoDev-simplifiee.svg">
   <metadata
      id="metadata288">
@@ -33,15 +33,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1440"
-     inkscape:window-height="839"
+     inkscape:window-width="1680"
+     inkscape:window-height="1014"
      id="namedview286"
      showgrid="false"
      inkscape:zoom="1.0433499"
-     inkscape:cx="515.912"
-     inkscape:cy="453.14861"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:cx="496.47353"
+     inkscape:cy="561.683"
+     inkscape:window-x="1680"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -730,9 +730,9 @@
        style="font-size:20px;fill:#003eff;font-family:DejaVu Sans Mono"
        id="text102">}</text>
     <text
-       x="903.519376"
-       y="284.80505"
-       style="font-size:20px;fill:#008000;font-family:DejaVu Sans Mono"
+       x="889.51935"
+       y="238.80505"
+       style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#008000"
        id="text104">,</text>
     <text
        x="729.97858"
@@ -740,9 +740,9 @@
        style="font-size:20px;fill:#000000;font-family:DejaVu Sans Mono"
        id="text106">J</text>
     <text
-       x="861.789606"
-       y="217.40254"
-       style="font-size:20px;fill:#000000;font-family:DejaVu Sans Mono"
+       x="878.12848"
+       y="284.72479"
+       style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#000000"
        id="text108">W</text>
     <text
        x="778.367573"
@@ -925,9 +925,9 @@
        style="font-size:20px;fill:#000000;font-family:DejaVu Sans Mono"
        id="text182">B</text>
     <text
-       x="878.519376"
-       y="284.80505"
-       style="font-size:20px;fill:#000000;font-family:DejaVu Sans Mono"
+       x="860.04425"
+       y="217.48279"
+       style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#000000"
        id="text184">Ç</text>
     <text
        x="285.369759"
