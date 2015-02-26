@@ -15,6 +15,7 @@ Modifications :
 - Remplacement de la touche Verr Maj. par Altgr.
 - Transformation de la toucher Altgr en Verr Altgr (fonctionnement similaire à Verr Maj mais sur le layer Altgr).
 - Ajout j k l m sur le layer altgr. 
+- Inversion du W et du Ç.
 
 Utilisation :
 -------------
