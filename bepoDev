@@ -5,8 +5,8 @@ xkb_symbols "dvorak" {
 
 	key <TLDE> { type[group1] = "FOUR_LEVEL", [ ecircumflex, Ecircumflex, endash, paragraph ] }; // ê Ê – ¶
 	key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ quotedbl, 1, underscore, doublelowquotemark ] }; // " 1 _ „
-	key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ less, 2, braceleft, leftdoublequotemark ] }; // < 2 { “
-	key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ greater, 3, braceright, rightdoublequotemark ] }; // > 3 } ”
+	key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ less, 2, guillemotleft, leftdoublequotemark ] }; // < 2 « “
+	key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ greater, 3, guillemotright, rightdoublequotemark ] }; // > 3 » ”
 	key <AE04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ parenleft, 4, bracketleft, lessthanequal ] }; // ( 4 [ ≤
 	key <AE05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ parenright, 5, bracketright, greaterthanequal ] }; // ) 5 ] ≥
 	key <AE06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ at, 6, asciicircum ] }; // @ 6 ^
@@ -23,8 +23,8 @@ xkb_symbols "dvorak" {
 	key <AD04> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ o, O, oe, OE ] }; // o O œ Œ
 	key <AD05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ egrave, Egrave, dead_grave, grave ] }; // è È ` `
 	key <AD06> { type[group1] = "THREE_LEVEL", [ dead_circumflex, exclam, exclamdown ] }; // ^ ! ¡
-	key <AD07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ v, V, dead_caron ] }; // v V ˇ
-	key <AD08> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ d, D, eth, ETH ] }; // d D ð Ð
+	key <AD07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ v, V, bracketleft ] }; // v V [
+	key <AD08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ d, D, bracketright ] }; // d D ]
 	key <AD09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ l, L, UFDD0 ] }; // l L /
 	key <AD10> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ j, J, U0133, U0132 ] }; // j J ĳ Ĳ
 	key <AD11> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ z, Z, schwa, SCHWA ] }; // z Z ə Ə
@@ -36,10 +36,10 @@ xkb_symbols "dvorak" {
 	key <AC04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ e, E, EuroSign, UFDD1 ] }; // e E € ¤
 	key <AC05> { type[group1] = "FOUR_LEVEL", [ comma, semicolon, rightsinglequotemark, dead_horn ] }; // , ; ’ ̛
 	key <AC06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ c, C, copyright, U017F ] }; // c C © ſ
-	key <AC07> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ t, T, j, J ], actions=[NoAction(), NoAction(), Redirect(Key=<AD10>,  clearmods=all), Redirect(Key=<AD10>, clearmods=all, modifiers=Shift)] }; // t T j J
-	key <AC08> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ s, S, k, K ], actions=[NoAction(), NoAction(), Redirect(Key=<AB05>,  clearmods=all), Redirect(Key=<AB05>, clearmods=all, modifiers=Shift)] }; // s S k K
-	key <AC09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ r, R, l, L ], actions=[NoAction(), NoAction(), Redirect(Key=<AD09>,  clearmods=all), Redirect(Key=<AD09>, clearmods=all, modifiers=Shift)] }; // r R l L
-	key <AC10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ n, N, m, M ], actions=[NoAction(), NoAction(), Redirect(Key=<AC11>,  clearmods=all), Redirect(Key=<AC11>, clearmods=all, modifiers=Shift)] }; // n N m M
+	key <AC07> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ t, T, parenleft, j ], actions=[NoAction(), NoAction(), NoAction(), Redirect(Key=<AD10>, clearmods=all)] }; // t T ( j
+	key <AC08> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ s, S, parenright, k ], actions=[NoAction(), NoAction(), NoAction(), Redirect(Key=<AB05>, clearmods=all)] }; // s S ) k
+	key <AC09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ r, R, braceleft, l ], actions=[NoAction(), NoAction(), NoAction(), Redirect(Key=<AD09>, clearmods=all)] }; // r R { l
+	key <AC10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ n, N, braceright, m ], actions=[NoAction(), NoAction(), NoAction(), Redirect(Key=<AC11>, clearmods=all)] }; // n N } m
 	key <AC11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ m, M, dead_macron, masculine ] }; // m M ¯ º
 	key <BKSL> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ w, W, dead_breve ] }; // w W ˘
 
