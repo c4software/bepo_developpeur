@@ -14,7 +14,7 @@ Modifications :
 - Déplacement de « » … pour ne pas les perdres suite au remapping.
 - Remplacement de la touche Verr Maj. par Altgr.
 - Transformation de la toucher Altgr en Verr Altgr (fonctionnement similaire à Verr Maj mais sur le layer Altgr).
-- --Ajout j k l m sur le layer altgr.--
+- Ajout j k l m sur le layer shift+Altgr.
 - Déplacement des symboles plus lié au dévoloppement ({}, (), []) en accès sur la main droite sur le layer Altgr.
 - Inversion du W et du Ç.
 
