@@ -9,7 +9,6 @@ Modifications :
 --------------
 
 - Passage en accès direct des touches < >.
-- Déplacement des { } pour les regroupés avec ( ) [ ].
 - Création des raccourcis Couper, Copier, Coller sur les touches équivalentes aux raccourcis azerty mais sur le layer Altgr (YEAH).
 - Déplacement de « » … pour ne pas les perdres suite au remapping.
 - Remplacement de la touche Verr Maj. par Altgr.
