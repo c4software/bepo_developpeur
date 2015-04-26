@@ -10,7 +10,7 @@ Modifications :
 
 - Passage en accès direct des touches < >.
 - Création des raccourcis Couper, Copier, Coller sur les touches équivalentes aux raccourcis azerty mais sur le layer Altgr (Linux seulement).
-- Déplacement de « » … pour ne pas les perdres suite au remapping.
+- Déplacement de … pour ne pas les perdres suite au remapping.
 - Remplacement de la touche Verr Maj. par Altgr.
 - Transformation de la toucher Altgr en Verr Altgr (fonctionnement similaire à Verr Maj mais sur le layer Altgr).
 - Ajout j k l m sur le layer shift+Altgr.
