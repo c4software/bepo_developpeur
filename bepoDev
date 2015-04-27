@@ -50,8 +50,8 @@ xkb_symbols "dvorak" {
 	key <AB04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ period, colon, dagger, doubledagger], actions=[NoAction(), NoAction(), Redirect(Key=<INS>,  clearmods=all, modifiers=Shift), Redirect(Key=<AD07>,  clearmods=all, modifiers=Control)] }; // . : … ·
 	key <AB05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ k, K, asciitilde, U2328 ] }; // k K ~ ⌨
 	key <AB06> { type[group1] = "FOUR_LEVEL", [ apostrophe, question, questiondown, dead_hook ] }; // ' ? ¿ ̉
-	key <AB07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ q, Q, guillemotleft, leftsinglequotemark ] }; // q Q ˚ ̣
-	key <AB08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ g, G, guillemotright, rightsinglequotemark ] }; // g G µ
+	key <AB07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ q, Q, dead_abovering, dead_belowdot ] }; // q Q ˚ ̣
+	key <AB08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ g, G, mu ] }; // g G µ
 	key <AB09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ h, H, ellipsis, periodcentered ]}; // h H † ‡
 	key <AB10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ f, F, dead_ogonek, ordfeminine ] }; // f F ˛ ª
 	key <SPCE> { type[group1] = "FOUR_LEVEL", [ space, space, underscore, space ] }; //     _  
