@@ -603,7 +603,7 @@
       <key code="1" action="ù" />
       <key code="2" action="diaeresis" />
       <key code="3" action="€" />
-      <key code="4" action="©" />
+      <key code="4" action="{" />
       <key code="5" action="’" />
       <key code="6" action="\" />
       <key code="7" action="«" />
@@ -636,11 +636,11 @@
       <key code="34" action="]" />
       <key code="35" action="ĳ" />
       <key code="36" output="&#x000d;" /> <!-- Return -->
-      <key code="37" action="{" />
+      <key code="37" action="}" />
       <key code="38" action="(" />
       <key code="39" action="macron" />
       <key code="40" action=")" />
-      <key code="41" action="}" />
+      <key code="41" action="©" />
       <key code="42" action="cedilla" />
       <key code="43" action="»" />
       <key code="44" action="ogonek" />
@@ -751,11 +751,11 @@
       <key code="34" action="]" />
       <key code="35" action="Ĳ" />
       <key code="36" output="&#x000d;" /> <!-- Return -->
-      <key code="37" action="{" />
+      <key code="37" action="}" />
       <key code="38" action="(" />
       <key code="39" action="º" />
       <key code="40" action=")" />
-      <key code="41" action="}" />
+      <key code="41" action="©" />
       <key code="42" action="commabelow" />
       <key code="43" action="" />
       <key code="44" action="ª" />
@@ -866,11 +866,11 @@
       <key code="34" action="]" />
       <key code="35" action="ĳ" />
       <key code="36" output="&#x000d;" /> <!-- Return -->
-      <key code="37" action="{" />
+      <key code="37" action="}" />
       <key code="38" action="(" />
       <key code="39" action="º" />
       <key code="40" action=")" />
-      <key code="41" action="}" />
+      <key code="41" action="©" />
       <key code="42" action="commabelow" />
       <key code="43" action="" />
       <key code="44" action="ª" />
@@ -948,7 +948,7 @@
       <key code="1" action="Ù" />
       <key code="2" action="diaeresis" />
       <key code="3" action="€" />
-      <key code="4" action="©" />
+      <key code="4" action="{" />
       <key code="5" action="’" />
       <key code="6" action="\" />
       <key code="7" action="«" />
@@ -981,11 +981,11 @@
       <key code="34" action="]" />
       <key code="35" action="Ĳ" />
       <key code="36" output="&#x000d;" /> <!-- Return -->
-      <key code="37" action="{" />
+      <key code="37" action="}" />
       <key code="38" action="(" />
       <key code="39" action="macron" />
       <key code="40" action="(" />
-      <key code="41" action="}" />
+      <key code="41" action="©" />
       <key code="42" action="cedilla" />
       <key code="43" action="greek" />
       <key code="44" action="ogonek" />
@@ -1063,7 +1063,7 @@
       <key code="1" action="ù" />
       <key code="2" action="¨" />
       <key code="3" action="€" />
-      <key code="4" action="©" />
+      <key code="4" action="{" />
       <key code="5" action="’" />
       <key code="6" action="\" />
       <key code="7" action="«" />
@@ -1096,11 +1096,11 @@
       <key code="34" action="]" />
       <key code="35" action="ĳ" />
       <key code="36" output="&#x000d;" /> <!-- Return -->
-      <key code="37" action="{" />
+      <key code="37" action="}" />
       <key code="38" action="(" />
       <key code="39" action="¯" />
       <key code="40" action=")" />
-      <key code="41" action="}" />
+      <key code="41" action="©" />
       <key code="42" action="¸" />
       <key code="43" action="µ" />
       <key code="44" action="˛" />
