@@ -21,6 +21,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -31,15 +32,15 @@
      objecttolerance="10"
      gridtolerance="10"
      guidetolerance="10"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:window-width="1440"
      inkscape:window-height="838"
      id="namedview286"
      showgrid="false"
      inkscape:zoom="1.0433499"
-     inkscape:cx="479.70063"
-     inkscape:cy="561.683"
+     inkscape:cx="257.33994"
+     inkscape:cy="442.83505"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -787,7 +788,7 @@
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#ff0000"
        id="text126">8</text>
     <text
-       x="703.89734"
+       x="503.89734"
        y="308.10779"
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#003eff"
        id="text128">{</text>
@@ -977,7 +978,7 @@
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#000000"
        id="text204">Ê</text>
     <text
-       x="769.80286"
+       x="701.80286"
        y="307.80505"
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#003eff"
        id="text206">}</text>
@@ -1172,7 +1173,7 @@
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#ff0000"
        id="text284">#</text>
     <text
-       x="556.24396"
+       x="554.24396"
        y="240.75366"
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#003eff"
        id="text266-4">[</text>
@@ -1215,7 +1216,7 @@
          id="tspan3209">Coller</tspan>
     </text>
     <text
-       x="572.66785"
+       x="570.66785"
        y="308.10779"
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#003eff"
        id="text176-8">(</text>
