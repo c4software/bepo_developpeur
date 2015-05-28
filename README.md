@@ -17,8 +17,8 @@ Modifications :
 - Déplacement des symboles plus lié au dévoloppement ({}, (), []) en accès sur la main droite sur le layer Altgr.
 - Inversion du W et du Ç.
 
-Utilisation :
--------------
+Utilisation (Linux):
+--------------------
 
 - Créer le chemin ~/.xkb/symbols/
 - Déplacer le fichier bepoDev dans ~/.xkb/symbols/
