@@ -34,12 +34,12 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="1440"
-     inkscape:window-height="838"
+     inkscape:window-width="1680"
+     inkscape:window-height="988"
      id="namedview286"
      showgrid="false"
      inkscape:zoom="1.0433499"
-     inkscape:cx="257.33994"
+     inkscape:cx="456.44502"
      inkscape:cy="442.83505"
      inkscape:window-x="0"
      inkscape:window-y="25"
@@ -788,7 +788,7 @@
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#ff0000"
        id="text126">8</text>
     <text
-       x="503.89734"
+       x="569.89734"
        y="308.10779"
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#003eff"
        id="text128">{</text>
@@ -903,7 +903,7 @@
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#003eff"
        id="text174">«</text>
     <text
-       x="637.99182"
+       x="703.99182"
        y="308.10779"
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#003eff"
        id="text176">)</text>
@@ -978,7 +978,7 @@
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#000000"
        id="text204">Ê</text>
     <text
-       x="701.80286"
+       x="767.80286"
        y="307.80505"
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#003eff"
        id="text206">}</text>
@@ -1173,12 +1173,12 @@
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#ff0000"
        id="text284">#</text>
     <text
-       x="554.24396"
+       x="620.24396"
        y="240.75366"
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#003eff"
        id="text266-4">[</text>
     <text
-       x="621.47931"
+       x="687.47931"
        y="240.75366"
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#003eff"
        id="text266">]</text>
@@ -1216,7 +1216,7 @@
          id="tspan3209">Coller</tspan>
     </text>
     <text
-       x="570.66785"
+       x="636.66785"
        y="308.10779"
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#003eff"
        id="text176-8">(</text>
