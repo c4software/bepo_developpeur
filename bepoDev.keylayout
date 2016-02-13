@@ -3,7 +3,7 @@
 <!-- bépo Layout -->
 <!-- http://www.bepo.fr/ -->
 <!-- version 1.0 -->
-<!--Last edited by Ukelele version 3.0.2.59 on 2016-02-13 at 22:46 (UTC+1)-->
+<!--Last edited by Ukelele version 3.0.2.59 on 2016-02-13 at 23:24 (UTC+1)-->
 <keyboard group="126" id="-24273" maxout="5" name="bepoDev">
 	<!--
     This layout is designed for ISO and ANSI keyboards. The extra
@@ -154,9 +154,9 @@
 			<key action="&#x0022;" code="18"/>
 			<key action="&#x003C;" code="19"/>
 			<key action="&#x003E;" code="20"/>
-			<key action="(" code="21"/>
+			<key action="( 1" code="21"/>
 			<key action="@" code="22"/>
-			<key action=")" code="23"/>
+			<key action=") 1" code="23"/>
 			<key action="%" code="24"/>
 			<key action="/" code="25"/>
 			<key action="+" code="26"/>
@@ -851,7 +851,7 @@
 			<key action="_" code="18"/>
 			<key action="«" code="19"/>
 			<key action="»" code="20"/>
-			<key action="[" code="21"/>
+			<key code="21" output="["/>
 			<key action="^" code="22"/>
 			<key action="]" code="23"/>
 			<key action="‰" code="24"/>
@@ -2075,8 +2075,285 @@
 			<when output="₍" state="caron"/>
 			<when output="⁽" state="circumflex"/>
 		</action>
+		<action id="( 1">
+			<when output="(" state="none"/>
+			<when next="Multi_key_parenleft" state="Multi_key"/>
+			<when next="Multi_key_Greek_iota_parenleft" state="Multi_key_Greek_iota"/>
+			<when next="Multi_key_Greek_iota_U0342_parenleft" state="Multi_key_Greek_iota_U0342"/>
+			<when next="Multi_key_Greek_iota_acute_parenleft" state="Multi_key_Greek_iota_acute"/>
+			<when next="Multi_key_Greek_iota_apostrophe_parenleft" state="Multi_key_Greek_iota_apostrophe"/>
+			<when next="Multi_key_Greek_iota_asciitilde_parenleft" state="Multi_key_Greek_iota_asciitilde"/>
+			<when next="Multi_key_Greek_iota_combining_acute_parenleft" state="Multi_key_Greek_iota_combining_acute"/>
+			<when next="Multi_key_Greek_iota_combining_grave_parenleft" state="Multi_key_Greek_iota_combining_grave"/>
+			<when next="Multi_key_Greek_iota_dead_acute_parenleft" state="Multi_key_Greek_iota_dead_acute"/>
+			<when next="Multi_key_Greek_iota_dead_grave_parenleft" state="Multi_key_Greek_iota_dead_grave"/>
+			<when next="Multi_key_Greek_iota_dead_tilde_parenleft" state="Multi_key_Greek_iota_dead_tilde"/>
+			<when next="Multi_key_Greek_iota_grave_parenleft" state="Multi_key_Greek_iota_grave"/>
+			<when next="Multi_key_acute_parenleft" state="Multi_key_acute"/>
+			<when next="Multi_key_apostrophe_parenleft" state="Multi_key_apostrophe"/>
+			<when output="⁽" state="Multi_key_asciicircum"/>
+			<when next="Multi_key_asciitilde_parenleft" state="Multi_key_asciitilde"/>
+			<when next="Multi_key_grave_parenleft" state="Multi_key_grave"/>
+			<when output="{" state="Multi_key_minus"/>
+			<when output="[" state="Multi_key_parenleft"/>
+			<when output="₍" state="Multi_key_underscore"/>
+			<when output="₍" state="caron"/>
+			<when output="⁽" state="circumflex"/>
+		</action>
 		<action id=")">
 			<when output="(" state="none"/>
+			<when next="Multi_key_parenright" state="Multi_key"/>
+			<when next="Multi_key_Greek_iota_parenright" state="Multi_key_Greek_iota"/>
+			<when next="Multi_key_Greek_iota_U0342_parenright" state="Multi_key_Greek_iota_U0342"/>
+			<when next="Multi_key_Greek_iota_acute_parenright" state="Multi_key_Greek_iota_acute"/>
+			<when next="Multi_key_Greek_iota_apostrophe_parenright" state="Multi_key_Greek_iota_apostrophe"/>
+			<when next="Multi_key_Greek_iota_asciitilde_parenright" state="Multi_key_Greek_iota_asciitilde"/>
+			<when next="Multi_key_Greek_iota_combining_acute_parenright" state="Multi_key_Greek_iota_combining_acute"/>
+			<when next="Multi_key_Greek_iota_combining_grave_parenright" state="Multi_key_Greek_iota_combining_grave"/>
+			<when next="Multi_key_Greek_iota_dead_acute_parenright" state="Multi_key_Greek_iota_dead_acute"/>
+			<when next="Multi_key_Greek_iota_dead_grave_parenright" state="Multi_key_Greek_iota_dead_grave"/>
+			<when next="Multi_key_Greek_iota_dead_tilde_parenright" state="Multi_key_Greek_iota_dead_tilde"/>
+			<when next="Multi_key_Greek_iota_grave_parenright" state="Multi_key_Greek_iota_grave"/>
+			<when next="Multi_key_acute_parenright" state="Multi_key_acute"/>
+			<when next="Multi_key_apostrophe_parenright" state="Multi_key_apostrophe"/>
+			<when output="⁾" state="Multi_key_asciicircum"/>
+			<when next="Multi_key_asciitilde_parenright" state="Multi_key_asciitilde"/>
+			<when next="Multi_key_grave_parenright" state="Multi_key_grave"/>
+			<when output="}" state="Multi_key_minus"/>
+			<when output="⓪" state="Multi_key_parenleft_0"/>
+			<when output="①" state="Multi_key_parenleft_1"/>
+			<when output="⑩" state="Multi_key_parenleft_1_0"/>
+			<when output="⑪" state="Multi_key_parenleft_1_1"/>
+			<when output="⑫" state="Multi_key_parenleft_1_2"/>
+			<when output="⑬" state="Multi_key_parenleft_1_3"/>
+			<when output="⑭" state="Multi_key_parenleft_1_4"/>
+			<when output="⑮" state="Multi_key_parenleft_1_5"/>
+			<when output="⑯" state="Multi_key_parenleft_1_6"/>
+			<when output="⑰" state="Multi_key_parenleft_1_7"/>
+			<when output="⑱" state="Multi_key_parenleft_1_8"/>
+			<when output="⑲" state="Multi_key_parenleft_1_9"/>
+			<when output="②" state="Multi_key_parenleft_2"/>
+			<when output="⑳" state="Multi_key_parenleft_2_0"/>
+			<when output="㉑" state="Multi_key_parenleft_2_1"/>
+			<when output="㉒" state="Multi_key_parenleft_2_2"/>
+			<when output="㉓" state="Multi_key_parenleft_2_3"/>
+			<when output="㉔" state="Multi_key_parenleft_2_4"/>
+			<when output="㉕" state="Multi_key_parenleft_2_5"/>
+			<when output="㉖" state="Multi_key_parenleft_2_6"/>
+			<when output="㉗" state="Multi_key_parenleft_2_7"/>
+			<when output="㉘" state="Multi_key_parenleft_2_8"/>
+			<when output="㉙" state="Multi_key_parenleft_2_9"/>
+			<when output="③" state="Multi_key_parenleft_3"/>
+			<when output="㉚" state="Multi_key_parenleft_3_0"/>
+			<when output="㉛" state="Multi_key_parenleft_3_1"/>
+			<when output="㉜" state="Multi_key_parenleft_3_2"/>
+			<when output="㉝" state="Multi_key_parenleft_3_3"/>
+			<when output="㉞" state="Multi_key_parenleft_3_4"/>
+			<when output="㉟" state="Multi_key_parenleft_3_5"/>
+			<when output="㊱" state="Multi_key_parenleft_3_6"/>
+			<when output="㊲" state="Multi_key_parenleft_3_7"/>
+			<when output="㊳" state="Multi_key_parenleft_3_8"/>
+			<when output="㊴" state="Multi_key_parenleft_3_9"/>
+			<when output="④" state="Multi_key_parenleft_4"/>
+			<when output="㊵" state="Multi_key_parenleft_4_0"/>
+			<when output="㊶" state="Multi_key_parenleft_4_1"/>
+			<when output="㊷" state="Multi_key_parenleft_4_2"/>
+			<when output="㊸" state="Multi_key_parenleft_4_3"/>
+			<when output="㊹" state="Multi_key_parenleft_4_4"/>
+			<when output="㊺" state="Multi_key_parenleft_4_5"/>
+			<when output="㊻" state="Multi_key_parenleft_4_6"/>
+			<when output="㊼" state="Multi_key_parenleft_4_7"/>
+			<when output="㊽" state="Multi_key_parenleft_4_8"/>
+			<when output="㊾" state="Multi_key_parenleft_4_9"/>
+			<when output="⑤" state="Multi_key_parenleft_5"/>
+			<when output="㊿" state="Multi_key_parenleft_5_0"/>
+			<when output="⑥" state="Multi_key_parenleft_6"/>
+			<when output="⑦" state="Multi_key_parenleft_7"/>
+			<when output="⑧" state="Multi_key_parenleft_8"/>
+			<when output="⑨" state="Multi_key_parenleft_9"/>
+			<when output="Ⓐ" state="Multi_key_parenleft_A"/>
+			<when output="Ⓑ" state="Multi_key_parenleft_B"/>
+			<when output="Ⓒ" state="Multi_key_parenleft_C"/>
+			<when output="Ⓓ" state="Multi_key_parenleft_D"/>
+			<when output="Ⓔ" state="Multi_key_parenleft_E"/>
+			<when output="Ⓕ" state="Multi_key_parenleft_F"/>
+			<when output="Ⓖ" state="Multi_key_parenleft_G"/>
+			<when output="Ⓗ" state="Multi_key_parenleft_H"/>
+			<when output="Ⓘ" state="Multi_key_parenleft_I"/>
+			<when output="Ⓙ" state="Multi_key_parenleft_J"/>
+			<when output="Ⓚ" state="Multi_key_parenleft_K"/>
+			<when output="Ⓛ" state="Multi_key_parenleft_L"/>
+			<when output="Ⓜ" state="Multi_key_parenleft_M"/>
+			<when output="Ⓝ" state="Multi_key_parenleft_N"/>
+			<when output="Ⓞ" state="Multi_key_parenleft_O"/>
+			<when output="Ⓟ" state="Multi_key_parenleft_P"/>
+			<when output="Ⓠ" state="Multi_key_parenleft_Q"/>
+			<when output="Ⓡ" state="Multi_key_parenleft_R"/>
+			<when output="Ⓢ" state="Multi_key_parenleft_S"/>
+			<when output="Ⓣ" state="Multi_key_parenleft_T"/>
+			<when output="Ⓤ" state="Multi_key_parenleft_U"/>
+			<when output="㉠" state="Multi_key_parenleft_U1100"/>
+			<when output="㉮" state="Multi_key_parenleft_U1100_U1161"/>
+			<when output="㉡" state="Multi_key_parenleft_U1102"/>
+			<when output="㉯" state="Multi_key_parenleft_U1102_U1161"/>
+			<when output="㉢" state="Multi_key_parenleft_U1103"/>
+			<when output="㉰" state="Multi_key_parenleft_U1103_U1161"/>
+			<when output="㉣" state="Multi_key_parenleft_U1105"/>
+			<when output="㉱" state="Multi_key_parenleft_U1105_U1161"/>
+			<when output="㉤" state="Multi_key_parenleft_U1106"/>
+			<when output="㉲" state="Multi_key_parenleft_U1106_U1161"/>
+			<when output="㉥" state="Multi_key_parenleft_U1107"/>
+			<when output="㉳" state="Multi_key_parenleft_U1107_U1161"/>
+			<when output="㉦" state="Multi_key_parenleft_U1109"/>
+			<when output="㉴" state="Multi_key_parenleft_U1109_U1161"/>
+			<when output="㉧" state="Multi_key_parenleft_U110B"/>
+			<when output="㉵" state="Multi_key_parenleft_U110B_U1161"/>
+			<when output="㉨" state="Multi_key_parenleft_U110C"/>
+			<when output="㉶" state="Multi_key_parenleft_U110C_U1161"/>
+			<when output="㉩" state="Multi_key_parenleft_U110E"/>
+			<when output="㉷" state="Multi_key_parenleft_U110E_U1161"/>
+			<when output="㉪" state="Multi_key_parenleft_U110F"/>
+			<when output="㉸" state="Multi_key_parenleft_U110F_U1161"/>
+			<when output="㉫" state="Multi_key_parenleft_U1110"/>
+			<when output="㉹" state="Multi_key_parenleft_U1110_U1161"/>
+			<when output="㉬" state="Multi_key_parenleft_U1111"/>
+			<when output="㉺" state="Multi_key_parenleft_U1111_U1161"/>
+			<when output="㉭" state="Multi_key_parenleft_U1112"/>
+			<when output="㉻" state="Multi_key_parenleft_U1112_U1161"/>
+			<when output="㋼" state="Multi_key_parenleft_U30F0"/>
+			<when output="㋽" state="Multi_key_parenleft_U30F1"/>
+			<when output="㊀" state="Multi_key_parenleft_U4E00"/>
+			<when output="㊆" state="Multi_key_parenleft_U4E03"/>
+			<when output="㊂" state="Multi_key_parenleft_U4E09"/>
+			<when output="㊤" state="Multi_key_parenleft_U4E0A"/>
+			<when output="㊦" state="Multi_key_parenleft_U4E0B"/>
+			<when output="㊥" state="Multi_key_parenleft_U4E2D"/>
+			<when output="㊈" state="Multi_key_parenleft_U4E5D"/>
+			<when output="㊁" state="Multi_key_parenleft_U4E8C"/>
+			<when output="㊄" state="Multi_key_parenleft_U4E94"/>
+			<when output="㊭" state="Multi_key_parenleft_U4F01"/>
+			<when output="㊡" state="Multi_key_parenleft_U4F11"/>
+			<when output="㊝" state="Multi_key_parenleft_U512A"/>
+			<when output="㊇" state="Multi_key_parenleft_U516B"/>
+			<when output="㊅" state="Multi_key_parenleft_U516D"/>
+			<when output="㊢" state="Multi_key_parenleft_U5199"/>
+			<when output="㊘" state="Multi_key_parenleft_U52B4"/>
+			<when output="㊩" state="Multi_key_parenleft_U533B"/>
+			<when output="㊉" state="Multi_key_parenleft_U5341"/>
+			<when output="㊯" state="Multi_key_parenleft_U5354"/>
+			<when output="㊞" state="Multi_key_parenleft_U5370"/>
+			<when output="㊨" state="Multi_key_parenleft_U53F3"/>
+			<when output="㊔" state="Multi_key_parenleft_U540D"/>
+			<when output="㊃" state="Multi_key_parenleft_U56DB"/>
+			<when output="㊏" state="Multi_key_parenleft_U571F"/>
+			<when output="㊰" state="Multi_key_parenleft_U591C"/>
+			<when output="㊛" state="Multi_key_parenleft_U5973"/>
+			<when output="㊫" state="Multi_key_parenleft_U5B66"/>
+			<when output="㊪" state="Multi_key_parenleft_U5B97"/>
+			<when output="㊧" state="Multi_key_parenleft_U5DE6"/>
+			<when output="㊐" state="Multi_key_parenleft_U65E5"/>
+			<when output="㊊" state="Multi_key_parenleft_U6708"/>
+			<when output="㊒" state="Multi_key_parenleft_U6709"/>
+			<when output="㊍" state="Multi_key_parenleft_U6728"/>
+			<when output="㊑" state="Multi_key_parenleft_U682A"/>
+			<when output="㊣" state="Multi_key_parenleft_U6B63"/>
+			<when output="㊌" state="Multi_key_parenleft_U6C34"/>
+			<when output="㊟" state="Multi_key_parenleft_U6CE8"/>
+			<when output="㊋" state="Multi_key_parenleft_U706B"/>
+			<when output="㊕" state="Multi_key_parenleft_U7279"/>
+			<when output="㊚" state="Multi_key_parenleft_U7537"/>
+			<when output="㊬" state="Multi_key_parenleft_U76E3"/>
+			<when output="㊓" state="Multi_key_parenleft_U793E"/>
+			<when output="㊗" state="Multi_key_parenleft_U795D"/>
+			<when output="㊙" state="Multi_key_parenleft_U79D8"/>
+			<when output="㊖" state="Multi_key_parenleft_U8CA1"/>
+			<when output="㊮" state="Multi_key_parenleft_U8CC7"/>
+			<when output="㊜" state="Multi_key_parenleft_U9069"/>
+			<when output="㊎" state="Multi_key_parenleft_U91D1"/>
+			<when output="㊠" state="Multi_key_parenleft_U9805"/>
+			<when output="Ⓥ" state="Multi_key_parenleft_V"/>
+			<when output="Ⓦ" state="Multi_key_parenleft_W"/>
+			<when output="Ⓧ" state="Multi_key_parenleft_X"/>
+			<when output="Ⓨ" state="Multi_key_parenleft_Y"/>
+			<when output="Ⓩ" state="Multi_key_parenleft_Z"/>
+			<when output="ⓐ" state="Multi_key_parenleft_a"/>
+			<when output="ⓑ" state="Multi_key_parenleft_b"/>
+			<when output="ⓒ" state="Multi_key_parenleft_c"/>
+			<when output="ⓓ" state="Multi_key_parenleft_d"/>
+			<when output="ⓔ" state="Multi_key_parenleft_e"/>
+			<when output="ⓕ" state="Multi_key_parenleft_f"/>
+			<when output="ⓖ" state="Multi_key_parenleft_g"/>
+			<when output="ⓗ" state="Multi_key_parenleft_h"/>
+			<when output="ⓘ" state="Multi_key_parenleft_i"/>
+			<when output="ⓙ" state="Multi_key_parenleft_j"/>
+			<when output="ⓚ" state="Multi_key_parenleft_k"/>
+			<when output="㋐" state="Multi_key_parenleft_kana_A"/>
+			<when output="㋠" state="Multi_key_parenleft_kana_CHI"/>
+			<when output="㋓" state="Multi_key_parenleft_kana_E"/>
+			<when output="㋫" state="Multi_key_parenleft_kana_FU"/>
+			<when output="㋩" state="Multi_key_parenleft_kana_HA"/>
+			<when output="㋬" state="Multi_key_parenleft_kana_HE"/>
+			<when output="㋪" state="Multi_key_parenleft_kana_HI"/>
+			<when output="㋭" state="Multi_key_parenleft_kana_HO"/>
+			<when output="㋑" state="Multi_key_parenleft_kana_I"/>
+			<when output="㋕" state="Multi_key_parenleft_kana_KA"/>
+			<when output="㋘" state="Multi_key_parenleft_kana_KE"/>
+			<when output="㋖" state="Multi_key_parenleft_kana_KI"/>
+			<when output="㋙" state="Multi_key_parenleft_kana_KO"/>
+			<when output="㋗" state="Multi_key_parenleft_kana_KU"/>
+			<when output="㋮" state="Multi_key_parenleft_kana_MA"/>
+			<when output="㋱" state="Multi_key_parenleft_kana_ME"/>
+			<when output="㋯" state="Multi_key_parenleft_kana_MI"/>
+			<when output="㋲" state="Multi_key_parenleft_kana_MO"/>
+			<when output="㋰" state="Multi_key_parenleft_kana_MU"/>
+			<when output="㋤" state="Multi_key_parenleft_kana_NA"/>
+			<when output="㋧" state="Multi_key_parenleft_kana_NE"/>
+			<when output="㋥" state="Multi_key_parenleft_kana_NI"/>
+			<when output="㋨" state="Multi_key_parenleft_kana_NO"/>
+			<when output="㋦" state="Multi_key_parenleft_kana_NU"/>
+			<when output="㋔" state="Multi_key_parenleft_kana_O"/>
+			<when output="㋶" state="Multi_key_parenleft_kana_RA"/>
+			<when output="㋹" state="Multi_key_parenleft_kana_RE"/>
+			<when output="㋷" state="Multi_key_parenleft_kana_RI"/>
+			<when output="㋺" state="Multi_key_parenleft_kana_RO"/>
+			<when output="㋸" state="Multi_key_parenleft_kana_RU"/>
+			<when output="㋚" state="Multi_key_parenleft_kana_SA"/>
+			<when output="㋝" state="Multi_key_parenleft_kana_SE"/>
+			<when output="㋛" state="Multi_key_parenleft_kana_SHI"/>
+			<when output="㋞" state="Multi_key_parenleft_kana_SO"/>
+			<when output="㋜" state="Multi_key_parenleft_kana_SU"/>
+			<when output="㋟" state="Multi_key_parenleft_kana_TA"/>
+			<when output="㋢" state="Multi_key_parenleft_kana_TE"/>
+			<when output="㋣" state="Multi_key_parenleft_kana_TO"/>
+			<when output="㋡" state="Multi_key_parenleft_kana_TSU"/>
+			<when output="㋒" state="Multi_key_parenleft_kana_U"/>
+			<when output="㋻" state="Multi_key_parenleft_kana_WA"/>
+			<when output="㋾" state="Multi_key_parenleft_kana_WO"/>
+			<when output="㋳" state="Multi_key_parenleft_kana_YA"/>
+			<when output="㋵" state="Multi_key_parenleft_kana_YO"/>
+			<when output="㋴" state="Multi_key_parenleft_kana_YU"/>
+			<when output="ⓛ" state="Multi_key_parenleft_l"/>
+			<when output="ⓜ" state="Multi_key_parenleft_m"/>
+			<when output="ⓝ" state="Multi_key_parenleft_n"/>
+			<when output="ⓞ" state="Multi_key_parenleft_o"/>
+			<when output="ⓟ" state="Multi_key_parenleft_p"/>
+			<when output="ⓠ" state="Multi_key_parenleft_q"/>
+			<when output="ⓡ" state="Multi_key_parenleft_r"/>
+			<when output="ⓢ" state="Multi_key_parenleft_s"/>
+			<when output="ⓣ" state="Multi_key_parenleft_t"/>
+			<when output="ⓤ" state="Multi_key_parenleft_u"/>
+			<when output="ⓥ" state="Multi_key_parenleft_v"/>
+			<when output="ⓦ" state="Multi_key_parenleft_w"/>
+			<when output="ⓧ" state="Multi_key_parenleft_x"/>
+			<when output="ⓨ" state="Multi_key_parenleft_y"/>
+			<when output="ⓩ" state="Multi_key_parenleft_z"/>
+			<when output="]" state="Multi_key_parenright"/>
+			<when output="₎" state="Multi_key_underscore"/>
+			<when output="₎" state="caron"/>
+			<when output="⁾" state="circumflex"/>
+		</action>
+		<action id=") 1">
+			<when output=")" state="none"/>
 			<when next="Multi_key_parenright" state="Multi_key"/>
 			<when next="Multi_key_Greek_iota_parenright" state="Multi_key_Greek_iota"/>
 			<when next="Multi_key_Greek_iota_U0342_parenright" state="Multi_key_Greek_iota_U0342"/>
@@ -3462,12 +3739,15 @@
 		<action id="[">
 			<when next="Dead Key State 0" state="none"/>
 		</action>
+		<action id="[ 1">
+			<when next="Dead Key State 0" state="none"/>
+		</action>
 		<action id="\">
 			<when output="\" state="none"/>
 			<when output="〝" state="Multi_key_quotedbl"/>
 		</action>
 		<action id="]">
-			<when output="[" state="none"/>
+			<when output="]" state="none"/>
 		</action>
 		<action id="^">
 			<when output="^" state="none"/>
