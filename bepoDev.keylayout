@@ -3,8 +3,8 @@
 <!-- bépo Layout -->
 <!-- http://www.bepo.fr/ -->
 <!-- version 1.0 -->
-<!--Last edited by Ukelele version 3.0.2.59 on 2016-02-13 at 23:24 (UTC+1)-->
-<keyboard group="126" id="-24273" maxout="5" name="bepoDev">
+<!--Last edited by Ukelele version 3.0.2.59 on 2016-02-15 at 22:23 (UTC+1)-->
+<keyboard group="126" id="-6205" maxout="5" name="bepoDev">
 	<!--
     This layout is designed for ISO and ANSI keyboards. The extra
     key on an ISO keyboard (next to the left Shift) is optional,
@@ -864,7 +864,7 @@
 			<key action="stroke" code="31"/>
 			<key code="32" output="&#x003C;"/>
 			<key action="ə" code="33"/>
-			<key action="]" code="34"/>
+			<key action="] 1" code="34"/>
 			<key action="ĳ" code="35"/>
 			<key code="36" output="&#x000D;"/>
 			<!-- Return -->
@@ -3748,6 +3748,9 @@
 		</action>
 		<action id="]">
 			<when output="]" state="none"/>
+		</action>
+		<action id="] 1">
+			<when output="[" state="none"/>
 		</action>
 		<action id="^">
 			<when output="^" state="none"/>
