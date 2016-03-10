@@ -15,10 +15,10 @@
         "false": -1
     },
     "keyboardType": "european",
-    "author": "Communauté Bépo",
-    "authorUrl": "http://bepo.fr",
-    "moreInfoUrl": "http://fr.wikipedia.org/wiki/B%C3%A9po",
-    "moreInfoText": "Wikipédia",
+    "author": "Valentin Brosseaus",
+    "authorUrl": "https://github.com/c4software/bepo_developpeur",
+    "moreInfoUrl": "http://bepo.fr/wiki/Utilisateur:C4software",
+    "moreInfoText": "Bepo C4software",
     "keys": [
         {
             "primary": 36,
