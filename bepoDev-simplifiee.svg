@@ -802,6 +802,11 @@
        y="309.80505"
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#000000"
        id="text132">,</text>
+     <text
+        x="443.18079"
+        y="309.80505"
+        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#003eff"
+        id="textapo">'</text>
     <text
        x="251.12347"
        y="352.20755"
@@ -1036,7 +1041,7 @@
        x="135.90552"
        y="175"
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#003eff"
-       id="text228">_</text>
+       id="text228">'</text>
     <text
        x="453.14709"
        y="420.38791"
@@ -1166,7 +1171,7 @@
        x="514.74554"
        y="377.20755"
        style="font-size:20px;font-family:'DejaVu Sans Mono';fill:#000000"
-       id="text282">'</text>
+       id="text282">’</text>
     <text
        x="119.31245"
        y="352.20755"
