@@ -1,12 +1,10 @@
-Disposition de clavier BépoDev
-==============================
+# Disposition de clavier BépoDev
 
 Fichier xkb et keylayout de la disposition Bépo modifié pour « améliorer » mon usage du Bépo dans le cadre de mon activité.
 
 ![Disposition BépoDev](bepoDev-simplifiee.png)
 
-Modifications :
---------------
+## Modifications :
 
 - Passage en accès direct des touches < >.
 - Création des raccourcis Couper, Copier, Coller sur les touches équivalentes aux raccourcis azerty mais sur le layer Altgr (Linux seulement).
@@ -17,8 +15,9 @@ Modifications :
 - Déplacement des symboles plus lié au développement ({}, (), []) en accès sur la main droite sur le layer Altgr.
 - Inversion du W et du Ç.
 
-Utilisation (Linux):
---------------------
+## Utilisation (Linux):
+
+### X11:
 
 - Créer le chemin ~/.xkb/symbols/
 - Déplacer le fichier bepoDev dans ~/.xkb/symbols/
