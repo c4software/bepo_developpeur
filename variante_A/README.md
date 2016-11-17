@@ -1,4 +1,4 @@
-La méthode A :
+# La méthode A :
 
 La main et l'avant bras sont alignés (c'est d'ailleurs le but de la posture !) :
 - au passage du poignet les tendons sont dans la moins contraignante ;
