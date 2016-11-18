@@ -1,5 +1,7 @@
 # La méthode A :
 
+![Disposition BépoDev Variante A](bepoDev-varianteA.png)
+
 La main et l'avant bras sont alignés (c'est d'ailleurs le but de la posture !) :
 - au passage du poignet les tendons sont dans la moins contraignante ;
 - les doigts se plient dans leur sens « naturel » de travail, et le moins contraignant ;
