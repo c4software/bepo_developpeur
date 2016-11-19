@@ -15,9 +15,9 @@ Fichier xkb et keylayout de la disposition Bépo modifié pour « améliorer » 
 - Déplacement des symboles plus lié au développement ({}, (), []) en accès sur la main droite sur le layer Altgr.
 - Inversion du W et du Ç.
 
-## Utilisation (Linux):
+## Utilisation :
 
-### X11:
+### X11, utilisation local:
 
 - Créer le chemin ~/.xkb/symbols/
 - Déplacer le fichier bepoDev dans ~/.xkb/symbols/
@@ -26,3 +26,9 @@ Fichier xkb et keylayout de la disposition Bépo modifié pour « améliorer » 
 ```
 	setxkbmap -I ~/.xkb bepoDev -print | xkbcomp -I~/.xkb - $DISPLAY
 ```
+
+### OSX
+
+Déplacer les fichier .keylayout dans le dossier ```/Library/Keyboard Layouts/```
+
+Astuce: Pour le mettre comme disposition par défaut au login, il suffit de suivre le tuto suivant : https://medium.com/@c4software/el-capitan-personnaliser-la-disposition-de-clavier-du-login-screen-a203b30d3f0c#.chgluub3a
