@@ -1,0 +1,69 @@
+partial alphanumeric_keys
+xkb_symbols "dvorak" {
+
+	name[Group1]= "France - Bepo, ergonomic, Dvorak way (Bépo Dev)";
+
+	key <TLDE> { type[group1] = "FOUR_LEVEL", [ ecircumflex, Ecircumflex, endash, paragraph ] }; // ê Ê – ¶
+	key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ quotedbl, 1, apostrophe, doublelowquotemark ] }; // " 1 ' „
+	key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ less, 2, guillemotleft, leftdoublequotemark ] }; // < 2 « “
+	key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ greater, 3, guillemotright, rightdoublequotemark ] }; // > 3 » ”
+	key <AE04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ parenleft, 4, bracketleft, lessthanequal ] }; // ( 4 [ ≤
+	key <AE05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ parenright, 5, bracketright, greaterthanequal ] }; // ) 5 ] ≥
+	key <AE06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ at, 6, asciicircum ] }; // @ 6 ^
+	key <AE07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ plus, 7, plusminus, notsign ] }; // + 7 ± ¬
+	key <AE08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ minus, 8, U2212, onequarter ] }; // - 8 − ¼
+	key <AE09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ slash, 9, division, onehalf ] }; // / 9 ÷ ½
+	key <AE10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ asterisk, 0, multiply, threequarters ] }; // * 0 × ¾
+	key <AE11> { type[group1] = "FOUR_LEVEL", [ equal, degree, notequal, minutes ] }; // = ° ≠ ′
+	key <AE12> { type[group1] = "FOUR_LEVEL", [ percent, grave, U2030, seconds ] }; // % ` ‰ ″
+
+	key <AD01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ b, B, bar, brokenbar ] }; // b B | ¦
+	key <AD02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ eacute, Eacute, dead_acute, dead_doubleacute ] }; // é É ´ ˝
+	key <AD03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ p, P, ampersand, section ] }; // p P & §
+	key <AD04> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ o, O, oe, OE ] }; // o O œ Œ
+	key <AD05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ egrave, Egrave, dead_grave, grave ] }; // è È ` `
+	key <AD06> { type[group1] = "THREE_LEVEL", [ dead_circumflex, exclam, exclamdown ] }; // ^ ! ¡
+	key <AD07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ v, V, UFDD0 ] }; // v V /
+	key <AD08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ d, D, bracketleft ] }; // d D [
+	key <AD09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ l, L, bracketright ] }; // l L ]
+	key <AD10> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ j, J, U0133, U0132 ] }; // j J ĳ Ĳ
+	key <AD11> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ z, Z, schwa, SCHWA ] }; // z Z ə Ə
+	key <AD12> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ccedilla, Ccedilla, dead_cedilla, UFDD3 ] }; // ç Ç ¸ ,
+
+	key <AC01> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ a, A, ae, AE ] }; // a A æ Æ
+	key <AC02> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ u, U, ugrave, Ugrave ] }; // u U ù Ù
+	key <AC03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ i, I, dead_diaeresis, dead_abovedot ] }; // i I ¨ ˙
+	key <AC04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ e, E, EuroSign, UFDD1 ] }; // e E € ¤
+	key <AC05> { type[group1] = "FOUR_LEVEL", [ comma, semicolon, apostrophe, dead_horn ] }; // , ; ' ̛
+	key <AC06> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ c, C, copyright, U017F ] }; // c C © ſ
+	key <AC07> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ t, T, braceleft, j ], actions=[NoAction(), NoAction(), NoAction(), Redirect(Key=<AD10>, clearmods=all)] }; // t T { j
+	key <AC08> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ s, S, parenleft, k ], actions=[NoAction(), NoAction(), NoAction(), Redirect(Key=<AB05>, clearmods=all)] }; // s S ( k
+	key <AC09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ r, R, parenright, l ], actions=[NoAction(), NoAction(), NoAction(), Redirect(Key=<AD09>, clearmods=all)] }; // r R ) l
+	key <AC10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ n, N, braceright, m ], actions=[NoAction(), NoAction(), NoAction(), Redirect(Key=<AC11>, clearmods=all)] }; // n N } m
+	key <AC11> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ m, M, dead_macron, masculine ] }; // m M ¯ º
+	key <BKSL> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ w, W, dead_breve ] }; // w W ˘
+
+	key <LGST> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ agrave, Agrave, backslash ] }; // à À \
+	key <AB01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ y, Y, dead_abovering, dead_belowdot], actions=[NoAction(), NoAction(), Redirect(Key=<DELE>,  clearmods=all, modifiers=Shift), Redirect(Key=<AB03>,  clearmods=all, modifiers=Control)] }; // y Y « ‘
+	key <AB02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ x, X, UFDD2 ], actions=[NoAction(), NoAction(), Redirect(Key=<INS>,  clearmods=all, modifiers=Control), Redirect(Key=<AC06>,  clearmods=all, modifiers=Control)]}; // x X » ’
+	key <AB03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ period, colon, dagger, doubledagger], actions=[NoAction(), NoAction(), Redirect(Key=<INS>,  clearmods=all, modifiers=Shift), Redirect(Key=<AD07>,  clearmods=all, modifiers=Control)] }; // . : … ·
+	key <AB04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ k, K, asciitilde, U2328 ] }; // k K ~ ⌨
+	key <AB05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ dollar, numbersign, slash ] }; // $ # /
+	key <AB06> { type[group1] = "FOUR_LEVEL", [ rightsinglequotemark, question, questiondown, dead_hook ] }; // ’ ? ¿ ̉
+	key <AB07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ q, Q, dead_abovering, dead_belowdot ] }; // q Q ˚ ̣
+	key <AB08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ g, G, mu ] }; // g G µ
+	key <AB09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ h, H, ellipsis, periodcentered ]}; // h H † ‡
+	key <AB10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ f, F, dead_ogonek, ordfeminine ] }; // f F ˛ ª
+	key <SPCE> { type[group1] = "FOUR_LEVEL", [ space, space, underscore, space ] }; //     _  
+
+	// Switch Caps lock to AltGr
+	key <CAPS> { type[Group1]="ONE_LEVEL", [ ISO_Level3_Shift ]   };
+
+	// Make AltGr as CapsAltGR (Act like a altr layer)
+	// key <RALT> { [ ISO_Level3_Shift ], locks=True };
+
+	//key <RALT> {[ISO_Next_Group], locks=True};
+	//interpret Super_L + x  {action = Redirect(Key=<AC06>, modifiers=Control);};
+
+	include "level3(ralt_switch)"
+};
