@@ -3,7 +3,7 @@
 <!-- bépo Layout -->
 <!-- http://www.bepo.fr/ -->
 <!-- version 1.0 -->
-<!--Last edited by Ukelele version 3.1.1.113 on 2016-11-16 at 22:40 (UTC+1)-->
+<!--Last edited by Ukelele version 3.1.1.113 on 2017-03-06 at 21:25 (UTC+1)-->
 <keyboard group="126" id="-16424" name="bepoDev" maxout="5">
 	<!--
     This layout is designed for ISO and ANSI keyboards. The extra
@@ -2782,7 +2782,7 @@
 			<when state="Multi_key_slash" output="\"/>
 		</action>
 		<action id="0">
-			<when state="none" output="0"/>
+			<when state="none" output="&#x0019;"/>
 			<when state="Multi_key_asciicircum" output="⁰"/>
 			<when state="Multi_key_parenleft" next="Multi_key_parenleft_0"/>
 			<when state="Multi_key_parenleft_1" next="Multi_key_parenleft_1_0"/>
@@ -5584,7 +5584,7 @@
 			<when state="macron" output="Ḗ"/>
 		</action>
 		<action id="Ê">
-			<when state="none" output="Ê"/>
+			<when state="none" output="~"/>
 			<when state="Multi_key_acute" output="Ế"/>
 			<when state="Multi_key_apostrophe" output="Ế"/>
 			<when state="Multi_key_asciitilde" output="Ễ"/>
@@ -5763,7 +5763,7 @@
 			<when state="macron" output="ḗ"/>
 		</action>
 		<action id="ê">
-			<when state="none" output="ê"/>
+			<when state="none" output="&#x0027;"/>
 			<when state="Multi_key_acute" output="ế"/>
 			<when state="Multi_key_apostrophe" output="ế"/>
 			<when state="Multi_key_asciitilde" output="ễ"/>
@@ -9190,7 +9190,7 @@
 			<when state="Multi_key" next="Multi_key_U1FFE"/>
 		</action>
 		<action id="–">
-			<when state="none" output="–"/>
+			<when state="none" output="~"/>
 		</action>
 		<action id="‘">
 			<when state="none" output="‘"/>

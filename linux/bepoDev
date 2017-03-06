@@ -3,7 +3,7 @@ xkb_symbols "dvorak" {
 
 	name[Group1]= "France - Bepo, ergonomic, Dvorak way (Bépo Dev)";
 
-	key <TLDE> { type[group1] = "FOUR_LEVEL", [ ecircumflex, Ecircumflex, endash, paragraph ] }; // ê Ê – ¶
+	key <TLDE> { type[group1] = "FOUR_LEVEL", [ apostrophe, asciitilde, asciitilde, asciitilde ] }; // ê Ê – ¶
 	key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ quotedbl, 1, apostrophe, doublelowquotemark ] }; // " 1 ' „
 	key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ less, 2, guillemotleft, leftdoublequotemark ] }; // < 2 « “
 	key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ greater, 3, guillemotright, rightdoublequotemark ] }; // > 3 » ”
