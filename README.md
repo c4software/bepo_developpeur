@@ -17,7 +17,7 @@ Fichier xkb et keylayout de la disposition Bépo modifié pour « optimiser » m
 
 ## Utilisation :
 
-### X11, utilisation local:
+### X11, utilisation sans droit root:
 
 - Créer le chemin ~/.xkb/symbols/
 - Déplacer le fichier bepoDev dans ~/.xkb/symbols/
