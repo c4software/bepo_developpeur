@@ -1,6 +1,6 @@
-# Disposition de clavier BépoDev
+# Disposition de clavier Bépo Dev
 
-Fichier xkb et keylayout de la disposition Bépo modifié pour « améliorer » mon usage du Bépo dans le cadre de mon activité.
+Fichier xkb et keylayout de la disposition Bépo modifié pour « optimiser » mon usage du Bépo dans le cadre de mon activité le développement.
 
 ![Disposition BépoDev](bepoDev-simplifiee.png)
 
@@ -17,7 +17,7 @@ Fichier xkb et keylayout de la disposition Bépo modifié pour « améliorer » 
 
 ## Utilisation :
 
-### X11, utilisation local:
+### X11, utilisation sans droit root:
 
 - Créer le chemin ~/.xkb/symbols/
 - Déplacer le fichier bepoDev dans ~/.xkb/symbols/
