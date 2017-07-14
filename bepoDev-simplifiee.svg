@@ -41,9 +41,9 @@
      inkscape:window-height="851"
      id="namedview286"
      showgrid="false"
-     inkscape:zoom="2.5401031"
-     inkscape:cx="597.81986"
-     inkscape:cy="431.59222"
+     inkscape:zoom="0.96"
+     inkscape:cx="359.94855"
+     inkscape:cy="450.95301"
      inkscape:window-x="0"
      inkscape:window-y="1"
      inkscape:window-maximized="1"
@@ -1363,6 +1363,86 @@
          x="534.93903"
          id="tspan4525"
          sodipodi:role="line">0</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect4344"
+       width="19.68504"
+       height="18.110237"
+       x="35.262951"
+       y="487.36328"
+       rx="9.8425198"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="58.884995"
+       y="501.54443"
+       id="text4346"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4348"
+         x="58.884995"
+         y="501.54443">Couche normal</tspan></text>
+    <rect
+       ry="0"
+       rx="9.8425198"
+       y="511.36328"
+       x="35.262951"
+       height="18.110237"
+       width="19.68504"
+       id="rect4372"
+       style="fill:#003eff;fill-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4374"
+       y="525.54443"
+       x="58.884995"
+       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="525.54443"
+         x="58.884995"
+         id="tspan4376"
+         sodipodi:role="line">Couche Alt-Gr</tspan></text>
+    <rect
+       style="fill:#ff0000;fill-opacity:1"
+       id="rect4389"
+       width="19.68504"
+       height="18.110237"
+       x="174.14484"
+       y="487.39478"
+       rx="9.8425198"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="197.76688"
+       y="501.57593"
+       id="text4391"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4393"
+         x="197.76688"
+         y="501.57593">Couche Maj</tspan></text>
+    <rect
+       ry="0"
+       rx="9.8425198"
+       y="511.39478"
+       x="174.14484"
+       height="18.110237"
+       width="19.68504"
+       id="rect4395"
+       style="fill:#ff00ff;fill-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4397"
+       y="525.57593"
+       x="197.76688"
+       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="525.57593"
+         x="197.76688"
+         id="tspan4399"
+         sodipodi:role="line">Couche Maj + Alt-Gr</tspan></text>
   </g>
   <text
      x="838.82513"
