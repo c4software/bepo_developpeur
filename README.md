@@ -14,6 +14,7 @@ Fichier xkb et keylayout de la disposition Bépo modifié pour « optimiser » m
 - Ajout j k l m sur le layer shift+Altgr.
 - Déplacement des symboles plus lié au développement ({}, (), []) en accès sur la main droite sur le layer Altgr.
 - Inversion du W et du Ç.
+- Ajout d’un pavé numérique sous la main gauche avec Maj + Altgr
 
 ## Utilisation :
 
