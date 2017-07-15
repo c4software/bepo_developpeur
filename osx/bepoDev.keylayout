@@ -3,8 +3,8 @@
 <!-- bépo Layout -->
 <!-- http://www.bepo.fr/ -->
 <!-- version 1.0 -->
-<!--Last edited by Ukelele version 3.1.1.113 on 2017-07-15 at 22:50 (UTC+2)-->
-<keyboard group="126" id="-32534" name="bepoDev" maxout="5">
+<!--Last edited by Ukelele version 3.1.1.113 on 2017-07-15 at 23:02 (UTC+2)-->
+<keyboard group="126" id="-18477" name="bepoDev" maxout="5">
 	<!--
     This layout is designed for ISO and ANSI keyboards. The extra
     key on an ISO keyboard (next to the left Shift) is optional,
@@ -193,6 +193,16 @@
 			<key code="53" output="&#x001B;"/>
 			<!-- Escape -->
 			<!-- gap, 54 through 64 -->
+			<key code="54" output=""/>
+			<key code="55" output=""/>
+			<key code="56" output=""/>
+			<key code="57" output=""/>
+			<key code="58" output=""/>
+			<key code="59" output=""/>
+			<key code="60" output=""/>
+			<key code="61" output=""/>
+			<key code="62" output=""/>
+			<key code="63" output=""/>
 			<key code="64" output="&#x0010;"/>
 			<key code="65" action=","/>
 			<!-- keypad -->
@@ -201,6 +211,7 @@
 			<key code="67" action="*"/>
 			<!-- keypad -->
 			<!-- gap, 68 -->
+			<key code="68" output=""/>
 			<key code="69" action="+"/>
 			<!-- keypad -->
 			<key code="70" output="&#x001C;"/>
@@ -210,6 +221,8 @@
 			<key code="72" output="&#x001F;"/>
 			<!-- keypad down arrow? -->
 			<!-- gap, 73 through 74 -->
+			<key code="73" output=""/>
+			<key code="74" output=""/>
 			<key code="75" action="/"/>
 			<!-- keypad -->
 			<key code="76" output="&#x0003;"/>
@@ -240,11 +253,15 @@
 			<key code="89" action="7"/>
 			<!-- keypad -->
 			<!-- gap, 90 -->
+			<key code="90" output=""/>
 			<key code="91" action="8"/>
 			<!-- keypad -->
 			<key code="92" action="9"/>
 			<!-- keypad -->
 			<!-- gap, 93 through 95 -->
+			<key code="93" output=""/>
+			<key code="94" output=""/>
+			<key code="95" output=""/>
 			<key code="96" output="&#x0010;"/>
 			<!-- F5 -->
 			<key code="97" output="&#x0010;"/>
@@ -308,6 +325,7 @@
 			<key code="126" output="&#x001E;"/>
 			<!-- up arrow -->
 			<!-- gap, 127 -->
+			<key code="127" output=""/>
 		</keyMap>
 		<keyMap index="1">
 			<!-- shift -->
@@ -371,6 +389,16 @@
 			<key code="53" output="&#x001B;"/>
 			<!-- Escape -->
 			<!-- gap, 54 through 64 -->
+			<key code="54" output=""/>
+			<key code="55" output=""/>
+			<key code="56" output=""/>
+			<key code="57" output=""/>
+			<key code="58" output=""/>
+			<key code="59" output=""/>
+			<key code="60" output=""/>
+			<key code="61" output=""/>
+			<key code="62" output=""/>
+			<key code="63" output=""/>
 			<key code="64" output="&#x0010;"/>
 			<key code="65" action=","/>
 			<!-- keypad -->
@@ -379,6 +407,7 @@
 			<key code="67" action="*"/>
 			<!-- keypad -->
 			<!-- gap, 68 -->
+			<key code="68" output=""/>
 			<key code="69" action="+"/>
 			<!-- keypad -->
 			<key code="70" output="&#x001C;"/>
@@ -388,6 +417,8 @@
 			<key code="72" output="&#x001F;"/>
 			<!-- keypad down arrow? -->
 			<!-- gap, 73 through 74 -->
+			<key code="73" output=""/>
+			<key code="74" output=""/>
 			<key code="75" action="/"/>
 			<!-- keypad -->
 			<key code="76" output="&#x0003;"/>
@@ -418,11 +449,15 @@
 			<key code="89" action="7"/>
 			<!-- keypad -->
 			<!-- gap, 90 -->
+			<key code="90" output=""/>
 			<key code="91" action="8"/>
 			<!-- keypad -->
 			<key code="92" action="9"/>
 			<!-- keypad -->
 			<!-- gap, 93 through 95 -->
+			<key code="93" output=""/>
+			<key code="94" output=""/>
+			<key code="95" output=""/>
 			<key code="96" output="&#x0010;"/>
 			<!-- F5 -->
 			<key code="97" output="&#x0010;"/>
@@ -485,6 +520,7 @@
 			<!-- down arrow -->
 			<key code="126" output="&#x001E;"/>
 			<!-- up arrow -->
+			<key code="127" output=""/>
 		</keyMap>
 		<keyMap index="2">
 			<!-- caps lock -->
@@ -548,6 +584,16 @@
 			<key code="53" output="&#x001B;"/>
 			<!-- Escape -->
 			<!-- gap, 54 through 64 -->
+			<key code="54" output=""/>
+			<key code="55" output=""/>
+			<key code="56" output=""/>
+			<key code="57" output=""/>
+			<key code="58" output=""/>
+			<key code="59" output=""/>
+			<key code="60" output=""/>
+			<key code="61" output=""/>
+			<key code="62" output=""/>
+			<key code="63" output=""/>
 			<key code="64" output="&#x0010;"/>
 			<key code="65" action="."/>
 			<!-- keypad -->
@@ -556,6 +602,7 @@
 			<key code="67" action="*"/>
 			<!-- keypad -->
 			<!-- gap, 68 -->
+			<key code="68" output=""/>
 			<key code="69" action="+"/>
 			<!-- keypad -->
 			<key code="70" output="&#x001C;"/>
@@ -565,6 +612,8 @@
 			<key code="72" output="&#x001F;"/>
 			<!-- keypad down arrow? -->
 			<!-- gap, 73 through 74 -->
+			<key code="73" output=""/>
+			<key code="74" output=""/>
 			<key code="75" action="/"/>
 			<!-- keypad -->
 			<key code="76" output="&#x0003;"/>
@@ -595,11 +644,15 @@
 			<key code="89" action="7"/>
 			<!-- keypad -->
 			<!-- gap, 90 -->
+			<key code="90" output=""/>
 			<key code="91" action="8"/>
 			<!-- keypad -->
 			<key code="92" action="9"/>
 			<!-- keypad -->
 			<!-- gap, 93 through 95 -->
+			<key code="93" output=""/>
+			<key code="94" output=""/>
+			<key code="95" output=""/>
 			<key code="96" output="&#x0010;"/>
 			<!-- F5 -->
 			<key code="97" output="&#x0010;"/>
@@ -662,6 +715,7 @@
 			<!-- down arrow -->
 			<key code="126" output="&#x001E;"/>
 			<!-- up arrow -->
+			<key code="127" output=""/>
 		</keyMap>
 		<keyMap index="3">
 			<!-- shift caps lock -->
@@ -725,6 +779,16 @@
 			<key code="53" output="&#x001B;"/>
 			<!-- Escape -->
 			<!-- gap, 54 through 64 -->
+			<key code="54" output=""/>
+			<key code="55" output=""/>
+			<key code="56" output=""/>
+			<key code="57" output=""/>
+			<key code="58" output=""/>
+			<key code="59" output=""/>
+			<key code="60" output=""/>
+			<key code="61" output=""/>
+			<key code="62" output=""/>
+			<key code="63" output=""/>
 			<key code="64" output="&#x0010;"/>
 			<key code="65" action="."/>
 			<!-- keypad -->
@@ -733,6 +797,7 @@
 			<key code="67" action="*"/>
 			<!-- keypad -->
 			<!-- gap, 68 -->
+			<key code="68" output=""/>
 			<key code="69" action="+"/>
 			<!-- keypad -->
 			<key code="70" output="&#x001C;"/>
@@ -742,6 +807,8 @@
 			<key code="72" output="&#x001F;"/>
 			<!-- keypad down arrow? -->
 			<!-- gap, 73 through 74 -->
+			<key code="73" output=""/>
+			<key code="74" output=""/>
 			<key code="75" action="/"/>
 			<!-- keypad -->
 			<key code="76" output="&#x0003;"/>
@@ -772,11 +839,15 @@
 			<key code="89" action="7"/>
 			<!-- keypad -->
 			<!-- gap, 90 -->
+			<key code="90" output=""/>
 			<key code="91" action="8"/>
 			<!-- keypad -->
 			<key code="92" action="9"/>
 			<!-- keypad -->
 			<!-- gap, 93 through 95 -->
+			<key code="93" output=""/>
+			<key code="94" output=""/>
+			<key code="95" output=""/>
 			<key code="96" output="&#x0010;"/>
 			<!-- F5 -->
 			<key code="97" output="&#x0010;"/>
@@ -839,6 +910,7 @@
 			<!-- down arrow -->
 			<key code="126" output="&#x001E;"/>
 			<!-- up arrow -->
+			<key code="127" output=""/>
 		</keyMap>
 		<keyMap index="4">
 			<!-- option -->
@@ -902,6 +974,16 @@
 			<key code="53" output="&#x001B;"/>
 			<!-- Escape -->
 			<!-- gap, 54 through 64 -->
+			<key code="54" output=""/>
+			<key code="55" output=""/>
+			<key code="56" output=""/>
+			<key code="57" output=""/>
+			<key code="58" output=""/>
+			<key code="59" output=""/>
+			<key code="60" output=""/>
+			<key code="61" output=""/>
+			<key code="62" output=""/>
+			<key code="63" output=""/>
 			<key code="64" output="&#x0010;"/>
 			<key code="65" action=","/>
 			<!-- keypad -->
@@ -910,6 +992,7 @@
 			<key code="67" action="*"/>
 			<!-- keypad -->
 			<!-- gap, 68 -->
+			<key code="68" output=""/>
 			<key code="69" action="+"/>
 			<!-- keypad -->
 			<key code="70" output="&#x001C;"/>
@@ -919,6 +1002,8 @@
 			<key code="72" output="&#x001F;"/>
 			<!-- keypad down arrow? -->
 			<!-- gap, 73 through 74 -->
+			<key code="73" output=""/>
+			<key code="74" output=""/>
 			<key code="75" action="/"/>
 			<!-- keypad -->
 			<key code="76" output="&#x0003;"/>
@@ -949,11 +1034,15 @@
 			<key code="89" action="7"/>
 			<!-- keypad -->
 			<!-- gap, 90 -->
+			<key code="90" output=""/>
 			<key code="91" action="8"/>
 			<!-- keypad -->
 			<key code="92" action="9"/>
 			<!-- keypad -->
 			<!-- gap, 93 through 95 -->
+			<key code="93" output=""/>
+			<key code="94" output=""/>
+			<key code="95" output=""/>
 			<key code="96" output="&#x0010;"/>
 			<!-- F5 -->
 			<key code="97" output="&#x0010;"/>
@@ -1016,6 +1105,7 @@
 			<!-- down arrow -->
 			<key code="126" output="&#x001E;"/>
 			<!-- up arrow -->
+			<key code="127" output=""/>
 		</keyMap>
 		<keyMap index="5">
 			<!-- shift option -->
@@ -1079,6 +1169,16 @@
 			<key code="53" output="&#x001B;"/>
 			<!-- Escape -->
 			<!-- gap, 54 through 64 -->
+			<key code="54" output=""/>
+			<key code="55" output=""/>
+			<key code="56" output=""/>
+			<key code="57" output=""/>
+			<key code="58" output=""/>
+			<key code="59" output=""/>
+			<key code="60" output=""/>
+			<key code="61" output=""/>
+			<key code="62" output=""/>
+			<key code="63" output=""/>
 			<key code="64" output="&#x0010;"/>
 			<key code="65" action="."/>
 			<!-- keypad -->
@@ -1087,6 +1187,7 @@
 			<key code="67" action="*"/>
 			<!-- keypad -->
 			<!-- gap, 68 -->
+			<key code="68" output=""/>
 			<key code="69" action="+"/>
 			<!-- keypad -->
 			<key code="70" output="&#x001C;"/>
@@ -1096,6 +1197,8 @@
 			<key code="72" output="&#x001F;"/>
 			<!-- keypad down arrow? -->
 			<!-- gap, 73 through 74 -->
+			<key code="73" output=""/>
+			<key code="74" output=""/>
 			<key code="75" action="/"/>
 			<!-- keypad -->
 			<key code="76" output="&#x0003;"/>
@@ -1126,11 +1229,15 @@
 			<key code="89" action="7"/>
 			<!-- keypad -->
 			<!-- gap, 90 -->
+			<key code="90" output=""/>
 			<key code="91" action="8"/>
 			<!-- keypad -->
 			<key code="92" action="9"/>
 			<!-- keypad -->
 			<!-- gap, 93 through 95 -->
+			<key code="93" output=""/>
+			<key code="94" output=""/>
+			<key code="95" output=""/>
 			<key code="96" output="&#x0010;"/>
 			<!-- F5 -->
 			<key code="97" output="&#x0010;"/>
@@ -1193,6 +1300,7 @@
 			<!-- down arrow -->
 			<key code="126" output="&#x001E;"/>
 			<!-- up arrow -->
+			<key code="127" output=""/>
 		</keyMap>
 		<keyMap index="6">
 			<!-- shift option caps lock -->
@@ -1256,6 +1364,16 @@
 			<key code="53" output="&#x001B;"/>
 			<!-- Escape -->
 			<!-- gap, 54 through 64 -->
+			<key code="54" output=""/>
+			<key code="55" output=""/>
+			<key code="56" output=""/>
+			<key code="57" output=""/>
+			<key code="58" output=""/>
+			<key code="59" output=""/>
+			<key code="60" output=""/>
+			<key code="61" output=""/>
+			<key code="62" output=""/>
+			<key code="63" output=""/>
 			<key code="64" output="&#x0010;"/>
 			<key code="65" action="."/>
 			<!-- keypad -->
@@ -1264,6 +1382,7 @@
 			<key code="67" action="*"/>
 			<!-- keypad -->
 			<!-- gap, 68 -->
+			<key code="68" output=""/>
 			<key code="69" action="+"/>
 			<!-- keypad -->
 			<key code="70" output="&#x001C;"/>
@@ -1273,6 +1392,8 @@
 			<key code="72" output="&#x001F;"/>
 			<!-- keypad down arrow? -->
 			<!-- gap, 73 through 74 -->
+			<key code="73" output=""/>
+			<key code="74" output=""/>
 			<key code="75" action="/"/>
 			<!-- keypad -->
 			<key code="76" output="&#x0003;"/>
@@ -1303,11 +1424,15 @@
 			<key code="89" action="7"/>
 			<!-- keypad -->
 			<!-- gap, 90 -->
+			<key code="90" output=""/>
 			<key code="91" action="8"/>
 			<!-- keypad -->
 			<key code="92" action="9"/>
 			<!-- keypad -->
 			<!-- gap, 93 through 95 -->
+			<key code="93" output=""/>
+			<key code="94" output=""/>
+			<key code="95" output=""/>
 			<key code="96" output="&#x0010;"/>
 			<!-- F5 -->
 			<key code="97" output="&#x0010;"/>
@@ -1370,6 +1495,7 @@
 			<!-- down arrow -->
 			<key code="126" output="&#x001E;"/>
 			<!-- up arrow -->
+			<key code="127" output=""/>
 		</keyMap>
 		<keyMap index="7">
 			<!-- option caps lock -->
@@ -1433,6 +1559,16 @@
 			<key code="53" output="&#x001B;"/>
 			<!-- Escape -->
 			<!-- gap, 54 through 64 -->
+			<key code="54" output=""/>
+			<key code="55" output=""/>
+			<key code="56" output=""/>
+			<key code="57" output=""/>
+			<key code="58" output=""/>
+			<key code="59" output=""/>
+			<key code="60" output=""/>
+			<key code="61" output=""/>
+			<key code="62" output=""/>
+			<key code="63" output=""/>
 			<key code="64" output="&#x0010;"/>
 			<key code="65" action=","/>
 			<!-- keypad -->
@@ -1441,6 +1577,7 @@
 			<key code="67" action="*"/>
 			<!-- keypad -->
 			<!-- gap, 68 -->
+			<key code="68" output=""/>
 			<key code="69" action="+"/>
 			<!-- keypad -->
 			<key code="70" output="&#x001C;"/>
@@ -1450,6 +1587,8 @@
 			<key code="72" output="&#x001F;"/>
 			<!-- keypad down arrow? -->
 			<!-- gap, 73 through 74 -->
+			<key code="73" output=""/>
+			<key code="74" output=""/>
 			<key code="75" action="/"/>
 			<!-- keypad -->
 			<key code="76" output="&#x0003;"/>
@@ -1480,11 +1619,15 @@
 			<key code="89" action="7"/>
 			<!-- keypad -->
 			<!-- gap, 90 -->
+			<key code="90" output=""/>
 			<key code="91" action="8"/>
 			<!-- keypad -->
 			<key code="92" action="9"/>
 			<!-- keypad -->
 			<!-- gap, 93 through 95 -->
+			<key code="93" output=""/>
+			<key code="94" output=""/>
+			<key code="95" output=""/>
 			<key code="96" output="&#x0010;"/>
 			<!-- F5 -->
 			<key code="97" output="&#x0010;"/>
@@ -1547,6 +1690,7 @@
 			<!-- down arrow -->
 			<key code="126" output="&#x001E;"/>
 			<!-- up arrow -->
+			<key code="127" output=""/>
 		</keyMap>
 		<keyMap index="8">
 			<!-- option command -->
@@ -1610,6 +1754,16 @@
 			<key code="53" output="&#x001B;"/>
 			<!-- Escape -->
 			<!-- gap, 54 through 64 -->
+			<key code="54" output=""/>
+			<key code="55" output=""/>
+			<key code="56" output=""/>
+			<key code="57" output=""/>
+			<key code="58" output=""/>
+			<key code="59" output=""/>
+			<key code="60" output=""/>
+			<key code="61" output=""/>
+			<key code="62" output=""/>
+			<key code="63" output=""/>
 			<key code="64" output="&#x0010;"/>
 			<key code="65" action=","/>
 			<!-- keypad -->
@@ -1618,6 +1772,7 @@
 			<key code="67" action="*"/>
 			<!-- keypad -->
 			<!-- gap, 68 -->
+			<key code="68" output=""/>
 			<key code="69" action="+"/>
 			<!-- keypad -->
 			<key code="70" output="&#x001C;"/>
@@ -1627,6 +1782,8 @@
 			<key code="72" output="&#x001F;"/>
 			<!-- keypad down arrow? -->
 			<!-- gap, 73 through 74 -->
+			<key code="73" output=""/>
+			<key code="74" output=""/>
 			<key code="75" action="/"/>
 			<!-- keypad -->
 			<key code="76" output="&#x0003;"/>
@@ -1657,11 +1814,15 @@
 			<key code="89" action="7"/>
 			<!-- keypad -->
 			<!-- gap, 90 -->
+			<key code="90" output=""/>
 			<key code="91" action="8"/>
 			<!-- keypad -->
 			<key code="92" action="9"/>
 			<!-- keypad -->
 			<!-- gap, 93 through 95 -->
+			<key code="93" output=""/>
+			<key code="94" output=""/>
+			<key code="95" output=""/>
 			<key code="96" output="&#x0010;"/>
 			<!-- F5 -->
 			<key code="97" output="&#x0010;"/>
@@ -1724,6 +1885,7 @@
 			<!-- down arrow -->
 			<key code="126" output="&#x001E;"/>
 			<!-- up arrow -->
+			<key code="127" output=""/>
 		</keyMap>
 		<keyMap index="9">
 			<!-- control -->
@@ -1788,6 +1950,16 @@
 			<key code="53" output="&#x001B;"/>
 			<!-- Escape -->
 			<!-- gap, 54 through 64 -->
+			<key code="54" output=""/>
+			<key code="55" output=""/>
+			<key code="56" output=""/>
+			<key code="57" output=""/>
+			<key code="58" output=""/>
+			<key code="59" output=""/>
+			<key code="60" output=""/>
+			<key code="61" output=""/>
+			<key code="62" output=""/>
+			<key code="63" output=""/>
 			<key code="64" output="&#x0010;"/>
 			<key code="65" output="."/>
 			<!-- keypad -->
@@ -1796,6 +1968,7 @@
 			<key code="67" output="*"/>
 			<!-- keypad -->
 			<!-- gap, 68 -->
+			<key code="68" output=""/>
 			<key code="69" action="+"/>
 			<!-- keypad -->
 			<key code="70" output="&#x001C;"/>
@@ -1805,6 +1978,8 @@
 			<key code="72" output="&#x001F;"/>
 			<!-- keypad down arrow? -->
 			<!-- gap, 73 through 74 -->
+			<key code="73" output=""/>
+			<key code="74" output=""/>
 			<key code="75" output="/"/>
 			<!-- keypad -->
 			<key code="76" output="&#x0003;"/>
@@ -1835,11 +2010,15 @@
 			<key code="89" action="7"/>
 			<!-- keypad -->
 			<!-- gap, 90 -->
+			<key code="90" output=""/>
 			<key code="91" action="8"/>
 			<!-- keypad -->
 			<key code="92" action="9"/>
 			<!-- keypad -->
 			<!-- gap, 93 through 95 -->
+			<key code="93" output=""/>
+			<key code="94" output=""/>
+			<key code="95" output=""/>
 			<key code="96" output="&#x0010;"/>
 			<!-- F5 -->
 			<key code="97" output="&#x0010;"/>
@@ -1903,6 +2082,7 @@
 			<key code="126" output="&#x001E;"/>
 			<!-- up arrow -->
 			<!-- gap, 127 -->
+			<key code="127" output=""/>
 		</keyMap>
 	</keyMapSet>
 	<actions>
@@ -6362,7 +6542,7 @@
 			<when state="highstroke" output="ẝ"/>
 		</action>
 		<action id="ſ 1">
-			<when state="none" output=""/>
+			<when state="none" output="&#x000D;"/>
 			<when state="abovedot" output="ẛ"/>
 			<when state="diagonalstroke" output="ẜ"/>
 			<when state="highstroke" output="ẝ"/>
