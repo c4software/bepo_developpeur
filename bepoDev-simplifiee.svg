@@ -14,8 +14,8 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="bepoDev-simplifiee.svg"
    inkscape:export-filename="/Users/valentinbrosseau/Dropbox/Python/dev/bepoDev/bepoDev-simplifiee.png"
-   inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   inkscape:export-xdpi="89.699997"
+   inkscape:export-ydpi="89.699997">
   <metadata
      id="metadata288">
     <rdf:RDF>
@@ -41,9 +41,9 @@
      inkscape:window-height="851"
      id="namedview286"
      showgrid="false"
-     inkscape:zoom="0.96"
-     inkscape:cx="359.94855"
-     inkscape:cy="450.95301"
+     inkscape:zoom="2.2"
+     inkscape:cx="605.43048"
+     inkscape:cy="534.28634"
      inkscape:window-x="0"
      inkscape:window-y="1"
      inkscape:window-maximized="1"
@@ -1443,6 +1443,42 @@
          x="197.76688"
          id="tspan4399"
          sodipodi:role="line">Couche Maj + Alt-Gr</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4356"
+       y="377.95108"
+       x="780.39844"
+       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="fill:#ff00ff"
+         y="377.95108"
+         x="780.39844"
+         id="tspan4358"
+         sodipodi:role="line">=</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="746.39844"
+       y="311.95108"
+       id="text4360"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4362"
+         x="746.39844"
+         y="311.95108"
+         style="fill:#ff00ff">+</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4364"
+       y="241.95108"
+       x="730.39844"
+       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="fill:#ff00ff"
+         y="241.95108"
+         x="730.39844"
+         id="tspan4366"
+         sodipodi:role="line">-</tspan></text>
   </g>
   <text
      x="838.82513"
