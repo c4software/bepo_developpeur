@@ -3,8 +3,8 @@
 <!-- bépo Layout -->
 <!-- http://www.bepo.fr/ -->
 <!-- version 1.0 -->
-<!--Last edited by Ukelele version 3.1.1.113 on 2017-07-15 at 23:02 (UTC+2)-->
-<keyboard group="126" id="-18477" name="bepoDev" maxout="5">
+<!--Last edited by Ukelele version 3.1.1.113 on 2017-07-16 at 22:06 (UTC+2)-->
+<keyboard group="126" id="-18408" name="bepoDev" maxout="5">
 	<!--
     This layout is designed for ISO and ANSI keyboards. The extra
     key on an ISO keyboard (next to the left Shift) is optional,
@@ -5932,13 +5932,13 @@
 			<when state="none" output="©"/>
 		</action>
 		<action id="© 3">
-			<when state="none" output=""/>
+			<when state="none" output="+"/>
 		</action>
 		<action id="ª">
 			<when state="none" output="ª"/>
 		</action>
 		<action id="ª 1">
-			<when state="none" output=""/>
+			<when state="none" output="="/>
 		</action>
 		<action id="«">
 			<when state="none" output="«"/>
@@ -6455,7 +6455,7 @@
 			<when state="none" output="Ĳ"/>
 		</action>
 		<action id="Ĳ 1">
-			<when state="none" output=""/>
+			<when state="none" output="-"/>
 		</action>
 		<action id="ĳ">
 			<when state="none" output="&#x003E;"/>
@@ -6542,7 +6542,7 @@
 			<when state="highstroke" output="ẝ"/>
 		</action>
 		<action id="ſ 1">
-			<when state="none" output="&#x000D;"/>
+			<when state="none" output=""/>
 			<when state="abovedot" output="ẛ"/>
 			<when state="diagonalstroke" output="ẜ"/>
 			<when state="highstroke" output="ẝ"/>
