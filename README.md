@@ -30,6 +30,4 @@ Fichier xkb et keylayout de la disposition Bépo modifié pour « optimiser » m
 
 ### OSX
 
-Déplacer les fichier .keylayout dans le dossier ```/Library/Keyboard Layouts/```
-
-Astuce: Pour le mettre comme disposition par défaut au login, il suffit de suivre le tuto suivant : https://medium.com/@c4software/el-capitan-personnaliser-la-disposition-de-clavier-du-login-screen-a203b30d3f0c#.chgluub3a
+Déplacer les fichier .keylayout dans le dossier ```/Library/Keyboard Layouts/```. Déposer dans la disposition dans le dossier global permet de l’avoir des l’écran de login, ainsi que dans les champs de saisie de mot de passe.
