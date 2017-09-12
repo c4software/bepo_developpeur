@@ -27,6 +27,8 @@ Fichier xkb et keylayout de la disposition Bépo modifié pour « optimiser » m
 	setxkbmap -I ~/.xkb bepoDev -print | xkbcomp -I~/.xkb - $DISPLAY
 ```
 
+Ou via l’extension Gnome : https://github.com/c4software/xkbswitcher
+
 ### OSX
 
 Déplacer les fichier .keylayout dans le dossier ```/Library/Keyboard Layouts/```. Déposer dans la disposition dans le dossier global permet de l’avoir des l’écran de login, ainsi que dans les champs de saisie de mot de passe.
