@@ -38,12 +38,12 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:window-width="1440"
-     inkscape:window-height="851"
+     inkscape:window-height="855"
      id="namedview286"
      showgrid="false"
      inkscape:zoom="2.2"
-     inkscape:cx="605.43048"
-     inkscape:cy="534.28634"
+     inkscape:cx="378.68572"
+     inkscape:cy="295.6854"
      inkscape:window-x="0"
      inkscape:window-y="1"
      inkscape:window-maximized="1"
@@ -1198,7 +1198,7 @@
        sodipodi:linespacing="126%">
       <tspan
          style="font-size:12px"
-         id="tspan3205">Couper</tspan>
+         id="tspan3205">«</tspan>
     </text>
     <text
        x="313.37964"
@@ -1207,7 +1207,7 @@
        id="text250-4">
       <tspan
          style="font-size:12px"
-         id="tspan3207">Copier</tspan>
+         id="tspan3207">»</tspan>
     </text>
     <text
        x="379.28516"
@@ -1216,7 +1216,7 @@
        id="text250-0">
       <tspan
          style="font-size:12px"
-         id="tspan3209">Coller</tspan>
+         id="tspan3209">·</tspan>
     </text>
     <text
        x="636.66785"
