@@ -14,6 +14,7 @@ Fichier xkb et keylayout de la disposition Bépo modifié pour « optimiser » m
 - Inversion du W et du Ç.
 - Inversion appostrophe. ' => ’
 - Ajout d’un pavé numérique sous la main gauche avec Maj + Altgr
+- Ajout du point médian sur Altgr + .
 
 ## Utilisation :
 

@@ -3,8 +3,8 @@
 <!-- bépo Layout -->
 <!-- http://www.bepo.fr/ -->
 <!-- version 1.0 -->
-<!--Last edited by Ukelele version 3.1.1.113 on 2017-07-16 at 22:06 (UTC+2)-->
-<keyboard group="126" id="-18408" name="bepoDev" maxout="5">
+<!--Last edited by Ukelele version 3.1.1.113 on 2017-12-21 at 21:30 (CET)-->
+<keyboard group="126" id="-20131" name="bepoDev" maxout="5">
 	<!--
     This layout is designed for ISO and ANSI keyboards. The extra
     key on an ISO keyboard (next to the left Shift) is optional,
@@ -962,7 +962,7 @@
 			<key code="44" action="ogonek"/>
 			<key code="45" action="¿"/>
 			<key code="46" action="«"/>
-			<key code="47" action="…"/>
+			<key code="47" action="… 1"/>
 			<key code="48" output="&#x0009;"/>
 			<!-- Tab -->
 			<key code="49" action="_"/>
@@ -9709,6 +9709,9 @@
 			<when state="none" output="3"/>
 		</action>
 		<action id="…">
+			<when state="none" output="·"/>
+		</action>
+		<action id="… 1">
 			<when state="none" output="…"/>
 		</action>
 		<action id=" ">
