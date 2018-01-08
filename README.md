@@ -33,3 +33,12 @@ Ou via l’extension Gnome : https://github.com/c4software/xkbswitcher
 ### OSX
 
 Déplacer les fichier .keylayout dans le dossier ```/Library/Keyboard Layouts/```. Déposer dans la disposition dans le dossier global permet de l’avoir des l’écran de login, ainsi que dans les champs de saisie de mot de passe.
+
+Attention Safari à l’air de corrompre le fichie .keylayout « le plus simple » c’est de récupérer le fichier avec wget :
+
+```sh
+cd /Library/Keyboard\ Layouts
+sudo wget https://raw.githubusercontent.com/c4software/bepo_developpeur/master/osx/bepoDev.keylayout
+```
+
+
