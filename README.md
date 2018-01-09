@@ -12,7 +12,7 @@ Fichier xkb et keylayout de la disposition Bépo modifié pour « optimiser » m
 - Déplacement des symboles plus lié au développement ({}, (), []) en accès sur la main droite sur le layer Altgr.
 - Inversion du W et du Ç.
 - Inversion appostrophe. ' => ’
-- Ajout d’un pavé numérique sous la main gauche avec Maj + Altgr
+- Ajout d’un pavé numérique sous la main gauche avec Maj + Altgr (main droite)
 - Ajout du point médian (·) sur Altgr + .
 
 ## Utilisation
