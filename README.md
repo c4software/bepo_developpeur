@@ -24,7 +24,7 @@ Fichier xkb et keylayout de la disposition Bépo modifié pour « optimiser » m
 - Appliquer la modification :
 
 ```
-	setxkbmap -I ~/.xkb bepoDev -print | xkbcomp -I~/.xkb - $DISPLAY
+setxkbmap -I ~/.xkb bepoDev -print | xkbcomp -I$HOME/.xkb - $DISPLAY
 ```
 
 Ou via l’extension Gnome : https://github.com/c4software/xkbswitcher
