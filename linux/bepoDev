@@ -47,12 +47,12 @@ xkb_symbols "dvorak" {
 	key <AB01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ agrave, Agrave, backslash ] }; // à À \
 	key <AB02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ y, Y, dead_abovering, dead_belowdot] }; // y Y « ‘
 	key <AB03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ x, X, UFDD2 ] }; // x X » ’
-	key <AB04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ period, colon, dagger, doubledagger] }; // . : … ·
+	key <AB04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ period, colon, periodcentered, periodcentered] }; // . : · ·
 	key <AB05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ k, K, asciitilde, U2328 ] }; // k K ~ ⌨
 	key <AB06> { type[group1] = "FOUR_LEVEL", [ rightsinglequotemark, question, questiondown, 0 ] }; // ’ ? ¿ 0
 	key <AB07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ q, Q, dead_abovering, 1 ] }; // q Q 1 ̣
 	key <AB08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ g, G, mu, 2 ] }; // g G 2
-	key <AB09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ h, H, periodcentered, 3 ]}; // h H · 3
+	key <AB09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ h, H, ellipsis, 3 ]}; // h H … 3
 	key <AB10> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ f, F, dead_ogonek, equal ] }; // f F ˛ =
 	key <SPCE> { type[group1] = "FOUR_LEVEL", [ space, space, underscore, space ] }; //     _  
 
