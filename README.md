@@ -26,7 +26,7 @@ Fichier xkb et keylayout de la disposition Bépo modifié pour « optimiser » m
 setxkbmap -I ~/.xkb bepoDev -print | xkbcomp -I$HOME/.xkb - $DISPLAY
 ```
 
-Ou via l'extension Gnome : https://github.com/c4software/xkbswitcher
+Ou via l'extension Gnome : [https://github.com/c4software/xkbswitcher](https://github.com/c4software/xkbswitcher)
 
 ### MacOs
 
