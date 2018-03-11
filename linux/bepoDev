@@ -4,7 +4,7 @@ xkb_symbols "dvorak" {
 	name[Group1]= "France - Bepo, ergonomic, Dvorak way (Bépo Dev)";
 
 	key <TLDE> { type[group1] = "FOUR_LEVEL", [ apostrophe, asciitilde, asciitilde, asciitilde ] }; // ê Ê – ¶
-	key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ quotedbl, 1, apostrophe, doublelowquotemark ] }; // " 1 ' „
+	key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ quotedbl, 1, rightsinglequotemark, doublelowquotemark ] }; // " 1 ’ „
 	key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ less, 2, guillemotleft, leftdoublequotemark ] }; // < 2 « “
 	key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ greater, 3, guillemotright, rightdoublequotemark ] }; // > 3 » ”
 	key <AE04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ parenleft, 4, bracketleft, lessthanequal ] }; // ( 4 [ ≤
@@ -49,7 +49,7 @@ xkb_symbols "dvorak" {
 	key <AB03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ x, X, UFDD2 ] }; // x X » ’
 	key <AB04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ period, colon, periodcentered, periodcentered] }; // . : · ·
 	key <AB05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ k, K, asciitilde, U2328 ] }; // k K ~ ⌨
-	key <AB06> { type[group1] = "FOUR_LEVEL", [ rightsinglequotemark, question, questiondown, 0 ] }; // ’ ? ¿ 0
+	key <AB06> { type[group1] = "FOUR_LEVEL", [ apostrophe, question, questiondown, 0 ] }; // ' ? ¿ 0
 	key <AB07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ q, Q, dead_abovering, 1 ] }; // q Q 1 ̣
 	key <AB08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ g, G, mu, 2 ] }; // g G 2
 	key <AB09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ h, H, ellipsis, 3 ]}; // h H … 3
