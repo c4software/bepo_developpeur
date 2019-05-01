@@ -7,12 +7,12 @@ Fichier xkb et keylayout de la disposition Bépo modifié pour « optimiser » m
 ## Modifications apportées
 
 - Passage en accès direct des touches < >.
-- Déplacement de … pour ne pas les perdres suite au remapping.
+- ~Déplacement de … pour ne pas les perdres suite au remapping.~ (Suppression dans la version 1.1, réalignement avec le Bépo)
 - Remplacement de la touche Verr Maj. par Altgr.
 - Déplacement des symboles plus lié au développement ({}, (), []) en accès sur la main droite sur le layer Altgr.
 - Inversion du W et du Ç.
-- Ajout d'un pavé numérique sous la main gauche avec Maj + Altgr (main droite)
-- Ajout du point médian (·) sur Altgr + .
+- ~Ajout d'un pavé numérique sous la main gauche avec Maj + Altgr (main droite)~ (Suppression dans la version 1.1)
+- ~Ajout du point médian (·) sur Altgr + .~ (Suppression sur la version 1.1, réalignement avec le Bépo)
 
 ## Utilisation
 
@@ -28,9 +28,9 @@ setxkbmap -I ~/.xkb bepoDev -print | xkbcomp -I$HOME/.xkb - $DISPLAY
 
 Ou via l'extension Gnome : [https://github.com/c4software/xkbswitcher](https://github.com/c4software/xkbswitcher)
 
-### MacOs
+### OSX
 
-Déplacer les fichier .keylayout dans le dossier ```/Library/Keyboard Layouts/```. Déposer dans la disposition dans le dossier global permet de l'avoir des l'écran de login, ainsi que dans les champs de saisie de mot de passe.
+Déplacer les fichier .keylayout dans le dossier `/Library/Keyboard Layouts/`. Déposer dans la disposition dans le dossier global permet de l'avoir des l'écran de login, ainsi que dans les champs de saisie de mot de passe.
 
 ⚠️ Attention Safari à l'air de corrompre le fichie .keylayout « le plus simple » c'est de récupérer le fichier avec wget :
 
