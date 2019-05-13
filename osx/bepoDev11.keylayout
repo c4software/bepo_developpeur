@@ -3,8 +3,8 @@
 <!--BépoDev 1.1rc2 Layout -->
 <!-- http://www.bepo.fr/ -->
 <!-- version 1.1rc2 -->
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-05-01 at 18:39 (CEST)-->
-<keyboard group="126" id="-32245" name="BepoDev 1.1" maxout="2">
+<!--Last edited by Ukelele version 3.3.0.249 on 2019-05-13 at 14:35 (CEST)-->
+<keyboard group="126" id="-5448" name="BepoDev 1.1" maxout="2">
     <!--
     This layout is designed for ISO and ANSI keyboards. The extra
     key on an ISO keyboard (next to the left Shift) is optional,
@@ -3275,7 +3275,7 @@
             <when state="tildeinscrit" output="ᵬ"/>
         </action>
         <action id="barre">
-            <when state="none" next="barre"/>
+            <when state="none" output="]"/>
             <when state="aigu" next="aigubarre"/>
             <when state="barre" next="doublebarre"/>
             <when state="doublebarre" output="/"/>
@@ -3377,7 +3377,7 @@
             <when state="trema" next="carontrema"/>
         </action>
         <action id="cedille">
-            <when state="none" next="cedille"/>
+            <when state="none" output="©"/>
             <when state="aigu" next="aigucedille"/>
             <when state="breve" next="brevecedille"/>
             <when state="cedille" output="¸"/>
@@ -3648,7 +3648,7 @@
             <when state="tildeinscrit" output="ᵮ"/>
         </action>
         <action id="fineinsecable">
-            <when state="none" output=""/>
+            <when state="none" output=" "/>
             <when state="aigu" output="´"/>
             <when state="barre" output="/"/>
             <when state="breve" output="˘"/>
@@ -4302,7 +4302,7 @@
             <when state="virgule" output="ș"/>
         </action>
         <action id="scientifique">
-            <when state="none" next="scientifique"/>
+            <when state="none" output="["/>
             <when state="barre" next="scientifiquebarre"/>
             <when state="gras" output="𝛁"/>
             <when state="grasitalique" output="𝜵"/>
@@ -4884,7 +4884,7 @@
             <when state="scientifique" output="↦"/>
         </action>
         <action id="£">
-            <when state="none" output="£"/>
+            <when state="none" output="→"/>
             <when state="monnaie" output="₶"/>
         </action>
         <action id="§">
@@ -4893,7 +4893,7 @@
             <when state="raye" output="Ꝑ"/>
         </action>
         <action id="©">
-            <when state="none" output="©"/>
+            <when state="none" next="cedille"/>
             <when state="monnaie" output="₡"/>
         </action>
         <action id="«">
@@ -4912,7 +4912,7 @@
             <when state="none" output=""/>
         </action>
         <action id="® 2">
-            <when state="none" output="®"/>
+            <when state="none" output="☒"/>
         </action>
         <action id="°">
             <when state="none" output="°"/>
@@ -5137,7 +5137,7 @@
             <when state="scientifique" output="⌀"/>
         </action>
         <action id="ſ">
-            <when state="none" output="ſ"/>
+            <when state="none" output="☑︎"/>
             <when state="barre" output="ẜ"/>
             <when state="latin" output="ẞ"/>
             <when state="pointsuscrit" output="ẛ"/>
@@ -5302,7 +5302,7 @@
             <when state="scientifiquebarre" output="⊭"/>
         </action>
         <action id="™ 5">
-            <when state="none" output="™"/>
+            <when state="none" output="☐"/>
             <when state="monnaie" output="৲"/>
             <when state="rayelatin" output="Ꝧ"/>
             <when state="scientifique" output="⊧"/>
@@ -5319,17 +5319,17 @@
             <when state="tilde" output="≉"/>
         </action>
         <action id="☙">
-            <when state="none" output="☙"/>
+            <when state="none" output="↗︎"/>
         </action>
         <action id="☠">
-            <when state="none" output="☠"/>
+            <when state="none" output="←"/>
             <when state="scientifique" output="⇀"/>
         </action>
         <action id="☢">
-            <when state="none" output="☢"/>
+            <when state="none" output="↑"/>
         </action>
         <action id="☣">
-            <when state="none" output="☣"/>
+            <when state="none" output="↓"/>
             <when state="scientifique" output="⊲"/>
             <when state="scientifiquebarre" output="⋪"/>
         </action>
@@ -5342,17 +5342,17 @@
             <when state="scientifique" output="⨡"/>
         </action>
         <action id="☯">
-            <when state="none" output="☯"/>
+            <when state="none" output="↙︎"/>
         </action>
         <action id="♥">
             <when state="none" output="♥"/>
             <when state="scientifique" output="↻"/>
         </action>
         <action id="♿">
-            <when state="none" output="♿"/>
+            <when state="none" output="⚠️"/>
         </action>
         <action id="⚓">
-            <when state="none" output="⚓"/>
+            <when state="none" output="□"/>
         </action>
         <action id="⚜">
             <when state="none" output="⚜"/>
@@ -5362,7 +5362,7 @@
             <when state="none" output="⛄"/>
         </action>
         <action id="⛽">
-            <when state="none" output="⛽"/>
+            <when state="none" output="■"/>
             <when state="monnaie" output="₻"/>
         </action>
         <action id="✈">
