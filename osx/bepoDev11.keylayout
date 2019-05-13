@@ -3,8 +3,8 @@
 <!--BépoDev 1.1rc2 Layout -->
 <!-- http://www.bepo.fr/ -->
 <!-- version 1.1rc2 -->
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-05-13 at 14:35 (CEST)-->
-<keyboard group="126" id="-5448" name="BepoDev 1.1" maxout="2">
+<!--Last edited by Ukelele version 3.3.0.249 on 2019-05-13 at 15:34 (CEST)-->
+<keyboard group="126" id="-1089" name="BepoDev 1.1" maxout="2">
     <!--
     This layout is designed for ISO and ANSI keyboards. The extra
     key on an ISO keyboard (next to the left Shift) is optional,
@@ -1772,6 +1772,7 @@
             <key code="53" output="&#x001B;"/>
             <!-- Escape -->
             <!-- gap, 54 through 64 -->
+            <key code="64" output=""/>
             <key code="65" output="."/>
             <!-- keypad -->
             <key code="66" output="&#x001D;"/>
@@ -1797,6 +1798,8 @@
             <key code="78" action="-"/>
             <!-- keypad -->
             <!-- gap, 79 through 80 -->
+            <key code="79" output=""/>
+            <key code="80" output=""/>
             <key code="81" action="="/>
             <!-- keypad -->
             <key code="82" action="0"/>
@@ -5338,7 +5341,7 @@
             <when state="scientifique" output="⃕"/>
         </action>
         <action id="☮">
-            <when state="none" output="☮"/>
+            <when state="none" output="🤘"/>
             <when state="scientifique" output="⨡"/>
         </action>
         <action id="☯">
@@ -5355,7 +5358,7 @@
             <when state="none" output="□"/>
         </action>
         <action id="⚜">
-            <when state="none" output="⚜"/>
+            <when state="none" output="👍"/>
             <when state="scientifique" output="⎓"/>
         </action>
         <action id="⛄">
@@ -5366,7 +5369,7 @@
             <when state="monnaie" output="₻"/>
         </action>
         <action id="✈">
-            <when state="none" output="✈"/>
+            <when state="none" output="👌"/>
         </action>
         <action id="⩽">
             <when state="none" output="⩽"/>
