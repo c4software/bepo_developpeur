@@ -16,6 +16,15 @@ Fichier xkb et keylayout de la disposition Bépo modifié pour « optimiser » m
 
 ## Utilisation
 
+### X11
+
+Installation 
+```
+mkdir -p ~/.xkb/symbols/
+cd ~/.xkb/symbols/
+wget https://github.com/c4software/gnome-shell-xkbswitcher/archive/master.zip
+```
+
 ### X11, utilisation sans droit root
 
 - Créer le chemin ~/.xkb/symbols/
