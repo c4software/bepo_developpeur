@@ -18,8 +18,38 @@ Fichier xkb et keylayout de la disposition Bépo modifié pour « optimiser » m
 
 ### X11
 
-Installation 
+#### Installation root
+
+```sh
+cd /usr/share/X11/xkb/symbols
+sudo https://raw.githubusercontent.com/c4software/bepo_developpeur/master/linux/bepoDev
+setxkbmap -v bepoDev
 ```
+
+Pour que la disposition soit disponible dans Gnome (et dans les différents DE). Ajouter dans le fichier `/usr/share/X11/xkb/rules/evdev.xml`
+
+```sudo gedit /usr/share/X11/xkb/rules/evdev.xml```
+
+```xml
+<layout>
+    <configItem>
+        <name>bepoDev</name>
+        <shortDescription>bp</shortDescription>
+        <description>BepoDev</description>
+        <languageList>
+            <iso639Id>fra</iso639Id>
+        </languageList>
+    </configItem>
+    <variantList>
+    </variantList>
+</layout>
+```
+
+! Attention une modification incorrect dans ce fichier entrainera un plantage de Gnome-Shell !
+
+#### Installation non root
+
+```sh
 mkdir -p ~/.xkb/symbols/
 cd ~/.xkb/symbols/
 wget https://github.com/c4software/gnome-shell-xkbswitcher/archive/master.zip
