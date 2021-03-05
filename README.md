@@ -20,9 +20,15 @@ Fichier xkb et keylayout de la disposition Bépo modifié pour « optimiser » m
 
 #### Installation root
 
+### Automatique
+
+Via le script d'installation disponible dans `linux/install.sh`
+
+### Manuellement
+
 ```sh
 cd /usr/share/X11/xkb/symbols
-sudo https://raw.githubusercontent.com/c4software/bepo_developpeur/master/linux/bepoDev
+sudo wget https://raw.githubusercontent.com/c4software/bepo_developpeur/master/linux/bepoDev
 setxkbmap -v bepoDev
 ```
 
@@ -45,7 +51,7 @@ Pour que la disposition soit disponible dans Gnome (et dans les différents DE).
 </layout>
 ```
 
-! Attention une modification incorrect dans ce fichier entrainera un plantage de Gnome-Shell !
+! Attention une modification incorrecte dans ce fichier entrainera un plantage de Gnome-Shell !
 
 #### Installation non root
 
@@ -69,9 +75,9 @@ Ou via l'extension Gnome : [https://github.com/c4software/xkbswitcher](https://g
 
 ### OSX
 
-Déplacer les fichier .keylayout dans le dossier `/Library/Keyboard Layouts/`. Déposer dans la disposition dans le dossier global permet de l'avoir des l'écran de login, ainsi que dans les champs de saisie de mot de passe.
+Déplacer le fichier .keylayout dans le dossier `/Library/Keyboard Layouts/`. Déposer dans la disposition dans le dossier global permet de l'avoir des l'écran de login, ainsi que dans les champs de saisie de mot de passe.
 
-⚠️ Attention Safari à l'air de corrompre le fichie .keylayout « le plus simple » c'est de récupérer le fichier avec wget :
+⚠️ Attention Safari à l'air de corrompre le fichier .keylayout « le plus simple » c'est de récupérer le fichier avec wget :
 
 ```sh
 cd /Library/Keyboard\ Layouts
