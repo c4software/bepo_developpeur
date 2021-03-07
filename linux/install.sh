@@ -3,8 +3,13 @@
 # Run ./install.sh
 # Disposition disponible dans  Settings -> Keyboard -> Keyboard Layouts 
 
+if [[ $EUID -ne 0 ]]; then
+   echo "Vous devez être root pour lancer l'installation" 
+   exit 1
+fi
+
 echo "Installation du bepoDev."
-sudo cp bepoDev /usr/share/X11/xkb/symbols/
+cp bepoDev /usr/share/X11/xkb/symbols/
 
 echo ""
 echo "Backup de l'ancien evdev."
@@ -17,7 +22,7 @@ then
 else
     echo ""
     echo "Ajout de la configuration bepoDev dans le fichier de définition des dispositions."
-    sudo sed -i 's_<\/layoutList>_<layout>\
+    sed -i 's_<\/layoutList>_<layout>\
         <configItem>\
         <name>bepoDev</name>\
         <shortDescription>bp</shortDescription>\
