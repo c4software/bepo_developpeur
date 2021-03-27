@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Run ./install.sh
 # Disposition disponible dans  Settings -> Keyboard -> Keyboard Layouts 
