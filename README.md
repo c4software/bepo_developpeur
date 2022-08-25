@@ -81,5 +81,5 @@ DÃ©placer le fichier .keylayout dans le dossier `/Library/Keyboard Layouts/`. DÃ
 
 ```sh
 cd /Library/Keyboard\ Layouts
-sudo wget https://raw.githubusercontent.com/c4software/bepo_developpeur/master/osx/bepoDev.keylayout
+sudo wget https://raw.githubusercontent.com/c4software/bepo_developpeur/master/osx/bepoDev11.keylayout
 ```
