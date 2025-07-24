@@ -16,6 +16,27 @@ Fichier xkb et keylayout de la disposition Bépo modifié pour « optimiser » m
 
 ## Utilisation
 
+### Wayland
+
+#### Hyprland
+
+L'installation dans Hyprland se réalise de la façon suivante :
+
+```
+cd /usr/share/X11/xkb/symbols
+sudo wget https://raw.githubusercontent.com/c4software/bepo_developpeur/master/linux/bepoDev
+```
+
+Puis dans la configuration de Hyprland (`hyprland.conf`) :
+
+```
+# …
+input {
+    kb_layout = bepoDev
+}
+# …
+```
+
 ### X11
 
 #### Installation root
