@@ -22,17 +22,18 @@ Fichier xkb et keylayout de la disposition Bépo modifié pour « optimiser » m
 
 L'installation dans Hyprland se réalise de la façon suivante :
 
-```
+```sh
 cd /usr/share/X11/xkb/symbols
 sudo wget https://raw.githubusercontent.com/c4software/bepo_developpeur/master/linux/bepoDev
 ```
 
 Puis dans la configuration de Hyprland (`hyprland.conf`) :
 
-```
+```yml
 # …
 input {
     kb_layout = bepoDev
+    kb_options = ralt:caps # Permet de remapper la touche Verr Maj. en Altgr.
 }
 # …
 ```
