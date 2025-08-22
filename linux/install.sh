@@ -1,38 +1,17 @@
 #!/bin/bash
 
-# Run ./install.sh
-# Disposition disponible dans  Settings -> Keyboard -> Keyboard Layouts 
+mkdir -p ~/.config/xkb/symbols
+mkdir -p ~/.config/xkb/rules
 
-if [[ $EUID -ne 0 ]]; then
-   echo "Vous devez être root pour lancer l'installation" 
-   exit 1
-fi
+cd ~/.config/xkb/symbols
+wget https://raw.githubusercontent.com/c4software/bepo_developpeur/master/linux/bepoDev
 
-echo "Installation du bepoDev."
-cp bepoDev /usr/share/X11/xkb/symbols/
+cd ~/.config/xkb/rules
+wget https://raw.githubusercontent.com/c4software/bepo_developpeur/master/linux/evdev.lst
+wget https://raw.githubusercontent.com/c4software/bepo_developpeur/master/linux/evdev.xml
 
-echo ""
-echo "Backup de l'ancien evdev."
-cp /usr/share/X11/xkb/rules/evdev.xml evdev.orig.xml
+cd ~/.config/xkb/rules
+ln -s evdev.lst base.lst
+ln -s evdev.xml base.xml
 
-if grep -Fxq "bepoDev" /usr/share/X11/xkb/rules/evdev.xml
-then
-    echo ""
-    echo "Disposition bepoDev déjà installé."
-else
-    echo ""
-    echo "Ajout de la configuration bepoDev dans le fichier de définition des dispositions."
-    sed -i 's_<\/layoutList>_<layout>\
-        <configItem>\
-        <name>bepoDev</name>\
-        <shortDescription>bp</shortDescription>\
-        <description>BepoDev</description>\
-        <languageList>\
-            <iso639Id>fra</iso639Id>\
-        </languageList>\
-        </configItem>\
-        <variantList>\
-        </variantList>\
-    </layout>\
-    </layoutList>_g' /usr/share/X11/xkb/rules/evdev.xml
-fi
+echo "Pour finaliser l'installation, déconnectez-vous puis reconnectez-vous."

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xkbConfigRegistry SYSTEM "xkb.dtd">
+<xkbConfigRegistry version="1.1">
+  <layoutList>
+    <layout>
+      <configItem>
+        <name>bepoDev</name>
+        <shortDescription>Français (BépoDev)</shortDescription>
+        <description>Français (BépoDev)</description>
+      </configItem>
+    </layout>
+  </layoutList>
+</xkbConfigRegistry>
