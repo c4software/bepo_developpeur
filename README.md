@@ -58,6 +58,8 @@ ln -s evdev.xml base.xml
 echo "Pour finaliser l'installation, déconnectez-vous puis reconnectez-vous."
 ```
 
+Source: [https://github.com/qwerty-fr/qwerty-fr/issues/49#issuecomment-1405254634]
+
 ### X11
 
 #### Installation root
