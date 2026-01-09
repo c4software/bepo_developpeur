@@ -3,8 +3,8 @@ xkb_symbols "bepo_dev" {
 
 	name[Group1]= "France - Bepo, ergonomic, Dvorak way (Bépo Dev)";
 
-	key <TLDE> { type[group1] = "FOUR_LEVEL", [ apostrophe, asciitilde, asciitilde, asciitilde ] }; // ê Ê – ¶
-	key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ quotedbl, 1, rightsinglequotemark, doublelowquotemark ] }; // " 1 ’ „
+	key <TLDE> { type[group1] = "FOUR_LEVEL", [ dollar, numbersign, slash ] }; // $ # /
+  key <AE01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ quotedbl, 1, rightsinglequotemark, doublelowquotemark ] }; // " 1 ’ „
 	key <AE02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ less, 2, guillemotleft, leftdoublequotemark ] }; // < 2 « “
 	key <AE03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ greater, 3, guillemotright, rightdoublequotemark ] }; // > 3 » ”
 	key <AE04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ parenleft, 4, bracketleft, lessthanequal ] }; // ( 4 [ ≤
