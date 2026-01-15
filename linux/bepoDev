@@ -27,9 +27,7 @@ xkb_symbols "bepo_dev" {
 	key <AD08> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ d, D, bracketleft, 8 ] }; // d D [ 8
 	key <AD09> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ l, L, bracketright, 9 ] }; // l L ] 9
 	key <AD10> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ j, J, U0133, minus ] }; // j J ĳ -
-	key <AD11> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ z, Z, schwa, SCHWA ] }; // z Z ə Ə
-	key <AD12> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ ccedilla, Ccedilla, dead_cedilla, UFDD3 ] }; // ç Ç ¸ ,
-
+	key <AD11> { [ z, Z, U1F44C, U1F44C ] }; // z Z 👌 👌
 	key <AC01> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ a, A, ae, AE ] }; // a A æ Æ
 	key <AC02> { type[group1] = "FOUR_LEVEL_ALPHABETIC", [ u, U, ugrave, Ugrave ] }; // u U ù Ù
 	key <AC03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ i, I, dead_diaeresis, dead_abovedot ] }; // i I ¨ ˙
