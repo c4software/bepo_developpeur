@@ -47,7 +47,7 @@ xkb_symbols "bepo_dev" {
 	key <AB01> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ agrave, Agrave, backslash ] }; // à À \
 	key <AB02> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ y, Y, dead_abovering, dead_belowdot] }; // y Y « ‘
 	key <AB03> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ x, X, UFDD2 ] }; // x X » ’
-	key <AB04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ period, colon, periodcentered, ellipsis] }; // . : · … 
+	key <AB04> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [period, colon, ellipsis, ellipsis] }; // . : … … 
 	key <AB05> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ k, K, asciitilde, U2328 ] }; // k K ~ ⌨
 	key <AB06> { type[group1] = "FOUR_LEVEL", [ apostrophe, question, questiondown, 0 ] }; // ' ? ¿ 0
 	key <AB07> { type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", [ q, Q, dead_abovering, 1 ] }; // q Q 1 ̣
