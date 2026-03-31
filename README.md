@@ -25,6 +25,7 @@ L'installation dans Hyprland se réalise de la façon suivante :
 ```sh
 cd /usr/share/X11/xkb/symbols
 sudo wget https://raw.githubusercontent.com/c4software/bepo_developpeur/master/linux/bepoDev
+cp bepoDev custom
 ```
 
 Puis dans la configuration de Hyprland (`hyprland.conf`) :
